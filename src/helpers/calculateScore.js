@@ -1,9 +1,5 @@
-import { config } from "dotenv";
 import { GoogleGenAI } from "@google/genai";
 import { system_prompt } from '../constants/systemPrompt.js';
-
-// Load environment variables
-config();
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
