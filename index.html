@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-Page Web App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .input-error {
+            color: red;
+        }
+        #submit-button {
+            display: none; /* Initially hide the submit button */
+        }
+        #clue-word-display p {
+            margin-bottom: 0.5rem;
+        }
+        .guess-input-container {
+            display: flex; /* Use flexbox to position items horizontally */
+            align-items: center; /* Vertically center items */
+            gap: 0.5rem; /* Add some gap between the input and button */
+            justify-content: center; /* Center the whole container */
+        }
+        #guess-input {
+            text-align: center; /* Center the text within the input */
+            /* margin: 0 auto 0 0;  Remove left margin, add right margin */
+            margin: 0 auto; /* Center the input */
+            flex-grow: 1; /* Allow input to grow and take up available space */
+            min-width: 0;  /* Prevent input from shrinking too much */
+        }
+        #submit-button {
+            flex-shrink: 0; /* Prevent button from shrinking */
+        }
+        .unused-clue {
+            color: gray;
+            text-decoration: line-through;
+            font-style: italic;
+        }
+        .guessed-word {
+            font-size: 0.8rem;
+            font-style: italic;
+            color: #a0aec0; /* Lighter shade of gray */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 h-screen flex items-center justify-center">
+    <div id="main-page" class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
+        <h1 class="text-2xl font-semibold mb-6 text-center text-gray-800">Mystery Word Game</h1>
+        <button id="start-new-game" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full mb-4">
+            Start New Game
+        </button>
+        <div class="mb-4">
+            <input type="text" id="join-game-code" placeholder="Enter 4-digit code" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline block mb-2">
+            <p id="code-error" class="text-red-500 text-xs italic mt-1" style="display: none;"></p>
+        </div>
+        <button id="join-existing-game" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full">
+            Join Existing Game
+        </button>
+        <p class="text-gray-600 text-sm mt-4 text-center">
+            The game will display clues, one at a time, until the mystery word is guessed.
+        </p>
+    </div>
+
+    <div id="game-page" class="bg-white p-8 rounded-lg shadow-md w-full max-w-lg" style="display: none;">
+        <div class="flex justify-start mb-4">
+            <span id="game-code" class="text-xl font-semibold text-gray-800"></span>
+        </div>
+        <div id="mystery-word-display" class="text-2xl font-bold text-center mb-6 text-blue-600">
+            </div>
+        <div id="clue-word-display" class="text-lg text-center mb-4 text-gray-700">
+            </div>
+        <div class="mb-4 guess-input-container">
+            <input type="text" id="guess-input" placeholder="Enter your guess" maxlength="20" class="shadow appearance-none border rounded w-1/2 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            <button id="submit-button" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" style="display: none;">
+                Submit
+            </button>
+        </div>
+        <div id="game-message" class="mt-4 text-center font-semibold"></div>
+    </div>
+
+    <script src="src/main.js"></script>
+</body>
+</html>
