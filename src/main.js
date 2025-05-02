@@ -1,3 +1,5 @@
+import { wordData } from "./constants/words.js";
+
 const mainPage = document.getElementById("main-page");
 const gamePage = document.getElementById("game-page");
 const startNewGameButton = document.getElementById("start-new-game");
@@ -16,29 +18,6 @@ const gameMessage = document.getElementById("game-message");
 //     return Math.floor(1000 + Math.random() * 9000).toString();
 // }
 
-// Use an object to store word data with 4-digit codes as keys
-const wordData = {
-  1001: {
-    word: "apple",
-    clues: ["fruit", "red", "tree", "round", "sweet"],
-  },
-  1002: {
-    word: "ocean",
-    clues: ["sea", "blue", "waves", "fish", "water"],
-  },
-  1003: {
-    word: "sun",
-    clues: ["star", "hot", "bright", "yellow", "light"],
-  },
-  1004: {
-    word: "book",
-    clues: ["read", "pages", "words", "story", "learn"],
-  },
-  1005: {
-    word: "music",
-    clues: ["song", "sound", "notes", "rhythm", "dance"],
-  },
-};
 
 let mysteryWord = "";
 let clueWords = [];

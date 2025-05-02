@@ -1,0 +1,28 @@
+{
+  "name": "web-guess-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipmarkose/web-guess-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philipmarkose/web-guess-game/issues"
+  },
+  "homepage": "https://github.com/philipmarkose/web-guess-game#readme",
+  "dependencies": {
+    "@google/genai": "^0.12.0",
+    "dotenv": "^16.5.0"
+  },
+  "type": "module"
+}
