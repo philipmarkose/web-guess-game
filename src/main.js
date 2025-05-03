@@ -1,5 +1,5 @@
 import { wordData } from "./constants/words.js";
-import { calculateScore } from "./helpers/calculateScore.js";
+import { basicScore } from "./helpers/basicCalculator.js";
 
 const mainPage = document.getElementById("main-page");
 const gamePage = document.getElementById("game-page");
@@ -142,7 +142,7 @@ submitButton.addEventListener("click", () => {
   } else {
     previousGuesses.push(guess);
     if (guess === mysteryWord) {
-      let score = calculateScore(mysteryWord,previousGuesses);
+      let score = basicScore(mysteryWord,previousGuesses);
       gameMessage.textContent = `Congratulations! You guessed the word! Your score is ${score}.`;
       let allClues = "";
       for (let i = 0; i < clueWords.length; i++) {
@@ -170,7 +170,7 @@ submitButton.addEventListener("click", () => {
         clueWordDisplay.innerHTML = displayedClues;
         currentClueIndex++;
       } else {
-        let score = calculateScore(mysteryWord,previousGuesses);
+        let score = basicScore(mysteryWord,previousGuesses);
         let allClues = "";
         for (let i = 0; i < clueWords.length; i++) {
           allClues += `<p>Clue ${i + 1}: ${
