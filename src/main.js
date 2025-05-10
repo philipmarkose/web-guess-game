@@ -1,5 +1,6 @@
 import { wordData } from "./constants/words.js";
-import { basicScore } from "./helpers/basicCalculator.js";
+import { semanticScore } from "./helpers/semanticScore.js";
+import { Calculator } from "./helpers/calculator.js";
 
 const mainPage = document.getElementById("main-page");
 const gamePage = document.getElementById("game-page");
@@ -19,44 +20,22 @@ const gameMessage = document.getElementById("game-message");
 //     return Math.floor(1000 + Math.random() * 9000).toString();
 // }
 
-
 let mysteryWord = "";
 let clueWords = [];
 let currentClueIndex = 0;
 let gameCode = "";
 let isNewGame = false;
 let previousGuesses = [];
+let score = 100;
+let calculator;
 
-// Function to calculate "distance" between two words (basic approach)
-function getWordDistance(word1, word2) {
-  if (!word1 || !word2) return 0;
-  let distance = 0;
-  const maxLength = Math.max(word1.length, word2.length);
-  for (let i = 0; i < maxLength; i++) {
-    if (word1[i] !== word2[i]) {
-      distance++;
-    }
-  }
-  return distance + Math.abs(word1.length - word2.length); // Add length difference
-}
-
-// Function to sort clues based on their distance from the mystery word
-function sortCluesByDistance(word, clues) {
-  if (!word || !clues || clues.length === 0) return [];
-  const sortedClues = [...clues].sort((a, b) => {
-    const distanceA = getWordDistance(word, a);
-    const distanceB = getWordDistance(word, b);
-    return distanceB - distanceA; // Sort descending (farthest first)
-  });
-  return sortedClues;
-}
 
 // Function to generate a mystery word and related clues
-function generateMysteryWordAndClues(code) {
+async function generateMysteryWordAndClues(code) {
   if (wordData[code]) {
     mysteryWord = wordData[code].word;
+    
     clueWords = wordData[code].clues;
-    clueWords = sortCluesByDistance(mysteryWord, clueWords); // Sort the clues
   } else {
     mysteryWord = "";
     clueWords = [];
@@ -66,14 +45,14 @@ function generateMysteryWordAndClues(code) {
 }
 
 // Function to switch to the game page
-function startGame() {
+async function startGame() {
   mainPage.style.display = "none";
   gamePage.style.display = "block";
   if (isNewGame) {
     // Generate the game code (which is the key)
     const wordKeys = Object.keys(wordData);
     gameCode = wordKeys[Math.floor(Math.random() * wordKeys.length)];
-    generateMysteryWordAndClues(gameCode);
+    await generateMysteryWordAndClues(gameCode);
   }
   gameCodeDisplay.textContent = `Game Code: ${gameCode}`;
   mysteryWordDisplay.textContent = ""; // Clear any previous content
@@ -87,21 +66,29 @@ function startGame() {
     clueWordDisplay.innerHTML += `<p>Clue 1: ${clueWords[currentClueIndex]}</p>`;
     currentClueIndex++;
   }
+  calculator = await Calculator.create(mysteryWord);
 }
 
 // Event listener for the "Start New Game" button
-startNewGameButton.addEventListener("click", () => {
+startNewGameButton.addEventListener("click", async () => {
   isNewGame = true;
-  startGame();
+  await startGame();
+});
+
+// Add event listener for the "Enter" key
+joinGameCodeInput.addEventListener("keydown", async (event) => {
+  if (event.key === "Enter") {
+    joinExistingGameButton.click(); // Trigger the button click
+  }
 });
 
 // Event listener for the "Join Existing Game" button
-joinExistingGameButton.addEventListener("click", () => {
+joinExistingGameButton.addEventListener("click", async () => {
   const enteredCode = joinGameCodeInput.value;
   if (wordData[enteredCode]) {
     gameCode = enteredCode;
     isNewGame = false;
-    generateMysteryWordAndClues(gameCode); // Call here to set clues
+    await generateMysteryWordAndClues(gameCode); // Call here to set clues
     startGame();
   } else {
     codeError.textContent =
@@ -129,7 +116,7 @@ guessInput.addEventListener("keydown", (event) => {
 });
 
 // Event listener for the submit button
-submitButton.addEventListener("click", () => {
+submitButton.addEventListener("click", async () => {
   const guess = guessInput.value.trim().toLowerCase();
   if (!previousGuesses.includes(guess)) {
     guessInput.value = "";
@@ -140,10 +127,11 @@ submitButton.addEventListener("click", () => {
   if (previousGuesses.includes(guess)) {
     gameMessage.textContent = "Already guessed. Try again.";
   } else {
+    calculator.updateScore(guess);
     previousGuesses.push(guess);
     if (guess === mysteryWord) {
-      let score = basicScore(mysteryWord,previousGuesses);
-      gameMessage.textContent = `Congratulations! You guessed the word! Your score is ${score}.`;
+      let score = await calculator.getScore();
+      guessInput.style.display = "none";
       let allClues = "";
       for (let i = 0; i < clueWords.length; i++) {
         allClues += `<p>Clue ${i + 1}: ${
@@ -155,7 +143,7 @@ submitButton.addEventListener("click", () => {
       clueWordDisplay.innerHTML = allClues;
       mysteryWordDisplay.textContent = `The word was ${mysteryWord}`;
       mysteryWordDisplay.style.color = "green";
-      guessInput.style.display = "none";
+      gameMessage.textContent = `Congratulations! You guessed the word! Your score is ${score}.`;
     } else {
       gameMessage.textContent = "Incorrect guess. Try again.";
       if (currentClueIndex < clueWords.length) {
@@ -170,7 +158,8 @@ submitButton.addEventListener("click", () => {
         clueWordDisplay.innerHTML = displayedClues;
         currentClueIndex++;
       } else {
-        let score = basicScore(mysteryWord,previousGuesses);
+        let score = await calculator.getScore();
+        guessInput.style.display = "none";
         let allClues = "";
         for (let i = 0; i < clueWords.length; i++) {
           allClues += `<p>Clue ${i + 1}: ${
@@ -183,7 +172,7 @@ submitButton.addEventListener("click", () => {
         gameMessage.textContent = `Game over!  Your score is ${score}.`;
         mysteryWordDisplay.textContent = `The word was ${mysteryWord}`;
         mysteryWordDisplay.style.color = "red";
-        guessInput.style.display = "none";
+        gameMessage.textContent = `Game over!  Your score is ${score}.`;
       }
     }
   }

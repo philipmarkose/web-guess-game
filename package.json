@@ -22,7 +22,10 @@
   "homepage": "https://github.com/philipmarkose/web-guess-game#readme",
   "dependencies": {
     "@google/genai": "^0.12.0",
-    "dotenv": "^16.5.0"
+    "@tensorflow-models/universal-sentence-encoder": "^1.3.3",
+    "@tensorflow/tfjs": "^4.22.0",
+    "dotenv": "^16.5.0",
+    "vite": "^6.3.5"
   },
   "type": "module"
 }
