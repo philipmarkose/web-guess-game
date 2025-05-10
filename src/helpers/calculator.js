@@ -1,5 +1,3 @@
-import * as tf from '@tensorflow/tfjs';
-import * as use from '@tensorflow-models/universal-sentence-encoder';
 
 export class Calculator {
     constructor(mysteryWord, mysteryWordEmbedding, model) {
