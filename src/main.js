@@ -127,7 +127,7 @@ submitButton.addEventListener("click", async () => {
   if (previousGuesses.includes(guess)) {
     gameMessage.textContent = "Already guessed. Try again.";
   } else {
-    calculator.updateScore(guess);
+    await calculator.updateScore(guess);
     previousGuesses.push(guess);
     if (guess === mysteryWord) {
       let score = await calculator.getScore();
