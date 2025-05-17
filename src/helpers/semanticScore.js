@@ -15,7 +15,7 @@ export async function semanticScore(mysteryWord, guesses) {
 
         let deduction = 20 * (1 - similarityScore);
         score = score - deduction;
-        console.log(
+        console.debug(
             `Semantic similarity between "${mysteryWord}" and "${guess}": ${similarityScore}. Deduction: ${deduction}. Current score: ${score}`
         );
 
