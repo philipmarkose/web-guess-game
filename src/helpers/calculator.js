@@ -7,6 +7,8 @@ export class Calculator {
         this.guessCounter = 0;
         this.deduction = 0;
         this.maxScore = [100, 95, 90, 70, 40];
+        this.numberOfGuessesDeduction = [0, 5, 10, 30, 40];
+        this.score = 100;
     }
 
     static async create(mysteryWord) {
@@ -16,11 +18,11 @@ export class Calculator {
     }
 
     async getScore() {
-        let score = this.maxScore[this.guessCounter-1]- this.deduction;
+        this.score = this.score - this.numberOfGuessesDeduction[this.guessCounter-1];
         console.log(
-            `Current score after ${this.guessCounter} guesses: ${score}`
+            `Current score after ${this.guessCounter} guesses: ${this.score}`
         );
-        return Math.max(0,Math.round(score));
+        return Promise.resolve(Math.max(0,Math.round(this.score)));
     }
 
     async updateScore(guess) {
@@ -31,11 +33,12 @@ export class Calculator {
             guessEmbedding.arraySync()[0]
         );
 
-        this.deduction = this.deduction + (20 * similarityScore);
-        console.log(
-            `Semantic similarity between "${this.mysteryWord}" and "${guess}": ${similarityScore}. Deduction: ${this.deduction}. Current score: ${this.maxScore[this.guessCounter-1]- this.deduction}`
+        this.deduction = 20 * (1 - similarityScore);
+        this.score = this.score - this.deduction;
+        console.debug(
+            `Semantic similarity between "${this.mysteryWord}" and "${guess}": ${similarityScore}. Deduction: ${this.deduction}. Current score: ${this.score}`
         );
-        return this.deduction;
+        return Promise.resolve(this.deduction);
     }
 
     cosineSimilarity(vecA, vecB) {
