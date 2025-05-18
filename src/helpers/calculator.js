@@ -1,4 +1,5 @@
-
+import natural from 'natural';
+import { cosineSimilarity,lemmatizeWord } from '../utils/calculator_util';
 export class Calculator {
     constructor(mysteryWord, mysteryWordEmbedding, model) {
         this.mysteryWord = mysteryWord;
@@ -26,9 +27,10 @@ export class Calculator {
     }
 
     async updateScore(guess) {
-        const guessEmbedding = await this.model.embed([guess]);
+        const lemmatizedGuess = lemmatizeWord(guess);
+        const guessEmbedding = await this.model.embed([lemmatizedGuess]);
         this.guessCounter++;
-        const similarityScore = this.cosineSimilarity(
+        const similarityScore = cosineSimilarity(
             this.mysteryWordEmbedding.arraySync()[0],
             guessEmbedding.arraySync()[0]
         );
@@ -39,12 +41,5 @@ export class Calculator {
             `Semantic similarity between "${this.mysteryWord}" and "${guess}": ${similarityScore}. Deduction: ${this.deduction}. Current score: ${this.score}`
         );
         return Promise.resolve(this.deduction);
-    }
-
-    cosineSimilarity(vecA, vecB) {
-        const dotProduct = vecA.reduce((sum, a, idx) => sum + a * vecB[idx], 0);
-        const magnitudeA = Math.sqrt(vecA.reduce((sum, a) => sum + a * a, 0));
-        const magnitudeB = Math.sqrt(vecB.reduce((sum, b) => sum + b * b, 0));
-        return dotProduct / (magnitudeA * magnitudeB);
     }
 }
