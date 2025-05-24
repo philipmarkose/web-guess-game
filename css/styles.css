@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f7fafc; /* Light gray background */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main Page Styles */
+#main-page {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 28rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #2d3748; /* Dark gray */
+}
+
+button {
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#start-new-game {
+    background-color: #4299e1; /* Blue */
+    color: white;
+}
+
+#start-new-game:hover {
+    background-color: #2b6cb0; /* Darker blue */
+}
+
+#join-existing-game {
+    background-color: #48bb78; /* Green */
+    color: white;
+}
+
+#join-existing-game:hover {
+    background-color: #2f855a; /* Darker green */
+}
+
+#join-game-code {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0; /* Light gray border */
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    color: #4a5568; /* Dark gray text */
+    margin-bottom: 0.5rem;
+}
+
+#code-error {
+    color: #e53e3e; /* Red */
+    font-size: 0.75rem;
+    font-style: italic;
+    margin-top: 0.25rem;
+    display: none;
+}
+
+p.text-gray-600 {
+    color: #718096; /* Medium gray */
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* Game Page Styles */
+#game-page {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 32rem;
+    display: none;
+}
+
+#game-code {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2d3748; /* Dark gray */
+}
+
+#mystery-word-display {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #4299e1; /* Blue */
+}
+
+#clue-word-display {
+    font-size: 1.125rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #4a5568; /* Dark gray */
+}
+
+#clue-word-display p {
+    margin-bottom: 0.5rem;
+}
+
+.guess-input-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+#guess-input {
+    text-align: center;
+    margin: 0 auto;
+    flex-grow: 1;
+    min-width: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0; /* Light gray border */
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    color: #4a5568; /* Dark gray text */
+}
+
+#submit-button {
+    background-color: #667eea; /* Indigo */
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    display: none;
+}
+
+#submit-button:hover {
+    background-color: #5a67d8; /* Darker indigo */
+}
+
+.unused-clue {
+    color: gray;
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.guessed-word {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #a0aec0; /* Lighter gray */
+}
+
+#game-message {
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: 600;
+}
