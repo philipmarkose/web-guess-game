@@ -1,4 +1,4 @@
-import natural from 'natural';
+
 import { cosineSimilarity,lemmatizeWord } from '../utils/calculator_util';
 export class Calculator {
     constructor(mysteryWord, mysteryWordEmbedding, model) {
