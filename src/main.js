@@ -60,6 +60,7 @@ async function startGame() {
   guessInput.value = ""; // Clear input
   submitButton.style.display = "none"; // Hide submit button
   gameMessage.textContent = "";
+  guessInput.focus();
   currentClueIndex = 0;
   previousGuesses = [];
   if (clueWords.length > 0) {

@@ -122,29 +122,52 @@ p.text-gray-600 {
     margin-bottom: 1rem;
 }
 
-#guess-input {
-    text-align: center;
-    margin: 0 auto;
-    flex-grow: 1;
-    min-width: 0;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    border: 1px solid #e2e8f0; /* Light gray border */
-    border-radius: 0.25rem;
-    padding: 0.5rem 0.75rem;
-    color: #4a5568; /* Dark gray text */
+/* Container for the input and button */
+.input-container {
+    position: relative;
+    width: 100%; /* Ensure the container takes full width */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically align items */
+    justify-content: center; /* Center the input and button */
 }
 
+/* Style the input field */
+#guess-input {
+    text-align: center;
+    margin: 0;
+    flex-grow: 0; /* Prevent the input from growing too wide */
+    width: 80%; /* Set the width of the input field */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0; /* Light gray border */
+    border-radius: 0.25rem 0 0 0.25rem; /* Rounded corners on the left */
+    padding: 0.5rem 1rem; /* Adjust padding for better alignment */
+    font-size: 1rem; /* Adjust font size */
+    color: #4a5568; /* Dark gray text */
+    z-index: 1; /* Keep input above other elements */
+}
+
+/* Style the button */
 #submit-button {
+    height: 100%; /* Match the height of the input field */
+    width: 15%; /* Take up less than 20% of the container width */
     background-color: #667eea; /* Indigo */
     color: white;
     font-weight: bold;
-    padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
-    display: none;
+    font-size: 0.875rem; /* Slightly smaller font size */
+    border: none;
+    border-radius: 0 0.25rem 0.25rem 0; /* Rounded corners on the right */
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    z-index: 2; /* Ensure button is above the input */
+    pointer-events: auto; /* Allow button clicks */
+    display: flex; /* Center the button text */
+    justify-content: center; /* Horizontally center text */
+    align-items: center; /* Vertically center text */
+    margin-left: -1px; /* Overlap the button slightly to align with the input */
 }
 
 #submit-button:hover {
-    background-color: #5a67d8; /* Darker indigo */
+    background-color: #5a67d8; /* Darker indigo on hover */
 }
 
 .unused-clue {
