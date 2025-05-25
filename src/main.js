@@ -36,16 +36,17 @@ async function generateMysteryWordAndClues(code) {
   previousGuesses = [];
 }
 
-function displayCluesandGuesses() { 
+function displayCluesandGuesses(length) { 
   let allClues = "";
-      for (let i = 0; i < clueWords.length; i++) {
-        allClues += `<p>Clue ${i + 1}: ${
-          clueWords[i]
-        }  <span class="guessed-word">  ${
-          previousGuesses[i] ? previousGuesses[i] : ""
-        } </span></p>`;
-      }
-      clueWordDisplay.innerHTML = allClues;
+  for (let i = 0; i < length; i++) {
+    const fadeClass = i > currentClueIndex -1 ? "fade-in" : ""; // Add fade-in class for clues greater than currentClueIndex
+    allClues += `<p class="${fadeClass}">Clue ${i + 1}: ${
+      clueWords[i]
+    }  <span class="guessed-word">  ${
+      previousGuesses[i] ? previousGuesses[i] : ""
+    } </span></p>`;
+  }
+  clueWordDisplay.innerHTML = allClues;
 }
 
 // Function to switch to the game page
@@ -134,33 +135,24 @@ submitButton.addEventListener("click", async () => {
   if (previousGuesses.includes(guess)) {
     gameMessage.textContent = "Already guessed. Try again.";
   } else {
-    console.log(`right above updateScore`);
     await calculator.updateScore(guess);
     previousGuesses.push(guess);
     if (guess === mysteryWord) {
       let score = await calculator.getScore();
       guessInput.style.display = "none";
-      displayCluesandGuesses()
+      displayCluesandGuesses(clueWords.length)
       mysteryWordDisplay.textContent = `The word was ${mysteryWord}`;
       mysteryWordDisplay.style.color = "green";
       gameMessage.textContent = `Congratulations! You guessed the word! Your score is ${score}.`;
     } else {
       gameMessage.textContent = "Incorrect guess. Try again.";
       if (currentClueIndex < clueWords.length) {
-        let displayedClues = "";
-        for (let i = 0; i < currentClueIndex + 1; i++) {
-          displayedClues += `<p>Clue ${i + 1}: ${
-            clueWords[i]
-          }  <span class="guessed-word">  ${
-            previousGuesses[i] ? previousGuesses[i] : ""
-          } </span></p>`;
-        }
-        clueWordDisplay.innerHTML = displayedClues;
+        displayCluesandGuesses(currentClueIndex + 1)
         currentClueIndex++;
       } else {
         let score = await calculator.getScore();
         guessInput.style.display = "none";
-        displayCluesandGuesses()
+        displayCluesandGuesses(clueWords.length)
         gameMessage.textContent = `Game over!  Your score is ${score}.`;
         mysteryWordDisplay.textContent = `The word was ${mysteryWord}`;
         mysteryWordDisplay.style.color = "red";

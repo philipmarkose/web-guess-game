@@ -187,3 +187,14 @@ p.text-gray-600 {
     text-align: center;
     font-weight: 600;
 }
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 3s forwards; /* Adjust duration as needed */
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
