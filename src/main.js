@@ -26,7 +26,6 @@ let currentClueIndex = 0;
 let gameCode = "";
 let isNewGame = false;
 let previousGuesses = [];
-let score = 100;
 let calculator;
 
 
@@ -67,7 +66,9 @@ async function startGame() {
     clueWordDisplay.innerHTML += `<p>Clue 1: ${clueWords[currentClueIndex]}</p>`;
     currentClueIndex++;
   }
+  console.log(`bout to create calculator`);
   calculator = await Calculator.create(mysteryWord);
+  console.log(`calculator created: ${calculator}`);
 }
 
 // Event listener for the "Start New Game" button
@@ -128,6 +129,7 @@ submitButton.addEventListener("click", async () => {
   if (previousGuesses.includes(guess)) {
     gameMessage.textContent = "Already guessed. Try again.";
   } else {
+    console.log(`right above updateScore`);
     await calculator.updateScore(guess);
     previousGuesses.push(guess);
     if (guess === mysteryWord) {
