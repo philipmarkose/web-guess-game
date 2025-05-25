@@ -1,5 +1,4 @@
 import { wordData } from "./constants/words.js";
-import { semanticScore } from "./helpers/semanticScore.js";
 import { Calculator } from "./helpers/calculator.js";
 
 const mainPage = document.getElementById("main-page");
@@ -15,10 +14,6 @@ const submitButton = document.getElementById("submit-button");
 const codeError = document.getElementById("code-error");
 const gameMessage = document.getElementById("game-message");
 
-// Function to generate a random 4-digit code - Not needed anymore
-// function generateGameCode() {
-//     return Math.floor(1000 + Math.random() * 9000).toString();
-// }
 
 let mysteryWord = "";
 let clueWords = [];
@@ -28,12 +23,10 @@ let isNewGame = false;
 let previousGuesses = [];
 let calculator;
 
-
 // Function to generate a mystery word and related clues
 async function generateMysteryWordAndClues(code) {
   if (wordData[code]) {
     mysteryWord = wordData[code].word;
-    
     clueWords = wordData[code].clues;
   } else {
     mysteryWord = "";
@@ -41,6 +34,18 @@ async function generateMysteryWordAndClues(code) {
   }
   currentClueIndex = 0;
   previousGuesses = [];
+}
+
+function displayCluesandGuesses() { 
+  let allClues = "";
+      for (let i = 0; i < clueWords.length; i++) {
+        allClues += `<p>Clue ${i + 1}: ${
+          clueWords[i]
+        }  <span class="guessed-word">  ${
+          previousGuesses[i] ? previousGuesses[i] : ""
+        } </span></p>`;
+      }
+      clueWordDisplay.innerHTML = allClues;
 }
 
 // Function to switch to the game page
@@ -135,15 +140,7 @@ submitButton.addEventListener("click", async () => {
     if (guess === mysteryWord) {
       let score = await calculator.getScore();
       guessInput.style.display = "none";
-      let allClues = "";
-      for (let i = 0; i < clueWords.length; i++) {
-        allClues += `<p>Clue ${i + 1}: ${
-          clueWords[i]
-        }  <span class="guessed-word"> ${
-          previousGuesses[i] ? previousGuesses[i] : ""
-        } </span></p>`;
-      }
-      clueWordDisplay.innerHTML = allClues;
+      displayCluesandGuesses()
       mysteryWordDisplay.textContent = `The word was ${mysteryWord}`;
       mysteryWordDisplay.style.color = "green";
       gameMessage.textContent = `Congratulations! You guessed the word! Your score is ${score}.`;
@@ -163,15 +160,7 @@ submitButton.addEventListener("click", async () => {
       } else {
         let score = await calculator.getScore();
         guessInput.style.display = "none";
-        let allClues = "";
-        for (let i = 0; i < clueWords.length; i++) {
-          allClues += `<p>Clue ${i + 1}: ${
-            clueWords[i]
-          }  <span class="guessed-word">  ${
-            previousGuesses[i] ? previousGuesses[i] : ""
-          } </span></p>`;
-        }
-        clueWordDisplay.innerHTML = allClues;
+        displayCluesandGuesses()
         gameMessage.textContent = `Game over!  Your score is ${score}.`;
         mysteryWordDisplay.textContent = `The word was ${mysteryWord}`;
         mysteryWordDisplay.style.color = "red";
