@@ -14,7 +14,6 @@ const submitButton = document.getElementById("submit-button");
 const codeError = document.getElementById("code-error");
 const gameMessage = document.getElementById("game-message");
 
-
 let mysteryWord = "";
 let clueWords = [];
 let currentClueIndex = 0;
@@ -36,10 +35,10 @@ async function generateMysteryWordAndClues(code) {
   previousGuesses = [];
 }
 
-function displayCluesandGuesses(length) { 
+function displayCluesandGuesses(length) {
   let allClues = "";
   for (let i = 0; i < length; i++) {
-    const fadeClass = i > currentClueIndex -1 ? "fade-in" : ""; // Add fade-in class for clues greater than currentClueIndex
+    const fadeClass = i > currentClueIndex - 1 ? "fade-in" : ""; // Add fade-in class for clues greater than currentClueIndex
     allClues += `<p class="${fadeClass}">Clue ${i + 1}: ${
       clueWords[i]
     }  <span class="guessed-word">  ${
@@ -140,19 +139,38 @@ submitButton.addEventListener("click", async () => {
     if (guess === mysteryWord) {
       let score = await calculator.getScore();
       guessInput.style.display = "none";
-      displayCluesandGuesses(clueWords.length)
+      displayCluesandGuesses(clueWords.length);
       mysteryWordDisplay.textContent = `The word was ${mysteryWord}`;
       mysteryWordDisplay.style.color = "green";
       gameMessage.textContent = `Congratulations! You guessed the word! Your score is ${score}.`;
+      // Add highlight animation for correct guess
+      mysteryWordDisplay.classList.add("highlight");
+
+      // Remove the highlight class after the animation ends
+      mysteryWordDisplay.addEventListener("animationend", () => {
+        mysteryWordDisplay.classList.remove("highlight");
+      });
     } else {
+      // Shake animation for incorrect guess
       gameMessage.textContent = "Incorrect guess. Try again.";
+      guessInput.classList.add("shake");
+      submitButton.classList.add("shake");
+
+      // Remove the shake class after the animation ends
+      guessInput.addEventListener("animationend", () =>
+        guessInput.classList.remove("shake")
+      );
+      submitButton.addEventListener("animationend", () =>
+        submitButton.classList.remove("shake")
+      );
+
       if (currentClueIndex < clueWords.length) {
-        displayCluesandGuesses(currentClueIndex + 1)
+        displayCluesandGuesses(currentClueIndex + 1);
         currentClueIndex++;
       } else {
         let score = await calculator.getScore();
         guessInput.style.display = "none";
-        displayCluesandGuesses(clueWords.length)
+        displayCluesandGuesses(clueWords.length);
         gameMessage.textContent = `Game over!  Your score is ${score}.`;
         mysteryWordDisplay.textContent = `The word was ${mysteryWord}`;
         mysteryWordDisplay.style.color = "red";
