@@ -48,6 +48,34 @@ function displayCluesandGuesses(length) {
   clueWordDisplay.innerHTML = allClues;
 }
 
+function displaySuccessMessage(mysteryWord, score) {
+  mysteryWordDisplay.textContent = `The word was ${mysteryWord}`;
+  mysteryWordDisplay.style.color = "green";
+  gameMessage.textContent = `Congratulations! You guessed the word! Your score is ${score}.`;
+
+  // Add highlight animation for correct guess
+  mysteryWordDisplay.classList.add("highlight");
+
+  // Remove the highlight class after the animation ends
+  mysteryWordDisplay.addEventListener("animationend", () => {
+    mysteryWordDisplay.classList.remove("highlight");
+  });
+}
+
+function shakeWrongGuess() {
+  gameMessage.textContent = "Incorrect guess. Try again.";
+  guessInput.classList.add("shake");
+  submitButton.classList.add("shake");
+
+  // Remove the shake class after the animation ends
+  guessInput.addEventListener("animationend", () =>
+    guessInput.classList.remove("shake")
+  );
+  submitButton.addEventListener("animationend", () =>
+    submitButton.classList.remove("shake")
+  );
+}
+
 // Function to switch to the game page
 async function startGame() {
   mainPage.style.display = "none";
@@ -140,30 +168,9 @@ submitButton.addEventListener("click", async () => {
       let score = await calculator.getScore();
       guessInput.style.display = "none";
       displayCluesandGuesses(clueWords.length);
-      mysteryWordDisplay.textContent = `The word was ${mysteryWord}`;
-      mysteryWordDisplay.style.color = "green";
-      gameMessage.textContent = `Congratulations! You guessed the word! Your score is ${score}.`;
-      // Add highlight animation for correct guess
-      mysteryWordDisplay.classList.add("highlight");
-
-      // Remove the highlight class after the animation ends
-      mysteryWordDisplay.addEventListener("animationend", () => {
-        mysteryWordDisplay.classList.remove("highlight");
-      });
+      displaySuccessMessage(mysteryWord, score);
     } else {
-      // Shake animation for incorrect guess
-      gameMessage.textContent = "Incorrect guess. Try again.";
-      guessInput.classList.add("shake");
-      submitButton.classList.add("shake");
-
-      // Remove the shake class after the animation ends
-      guessInput.addEventListener("animationend", () =>
-        guessInput.classList.remove("shake")
-      );
-      submitButton.addEventListener("animationend", () =>
-        submitButton.classList.remove("shake")
-      );
-
+      shakeWrongGuess();
       if (currentClueIndex < clueWords.length) {
         displayCluesandGuesses(currentClueIndex + 1);
         currentClueIndex++;
