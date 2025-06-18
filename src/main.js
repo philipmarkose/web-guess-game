@@ -63,7 +63,7 @@ function displaySuccessMessage(mysteryWord, score) {
 }
 
 function shakeWrongGuess() {
-  gameMessage.textContent = "Incorrect guess. Try again.";
+  gameMessage.textContent = "";
   guessInput.classList.add("shake");
   submitButton.classList.add("shake");
 
