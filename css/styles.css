@@ -146,30 +146,6 @@ p.text-gray-600 {
   z-index: 1; /* Keep input above other elements */
 }
 
-/* Style the button */
-#submit-button {
-  height: 100%; /* Match the height of the input field */
-  width: 15%; /* Take up less than 20% of the container width */
-  background-color: #667eea; /* Indigo */
-  color: white;
-  font-weight: bold;
-  font-size: 0.875rem; /* Slightly smaller font size */
-  border: none;
-  border-radius: 0 0.25rem 0.25rem 0; /* Rounded corners on the right */
-  cursor: pointer;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  z-index: 2; /* Ensure button is above the input */
-  pointer-events: auto; /* Allow button clicks */
-  display: flex; /* Center the button text */
-  justify-content: center; /* Horizontally center text */
-  align-items: center; /* Vertically center text */
-  margin-left: -1px; /* Overlap the button slightly to align with the input */
-}
-
-#submit-button:hover {
-  background-color: #5a67d8; /* Darker indigo on hover */
-}
-
 .unused-clue {
   color: gray;
   text-decoration: line-through;
