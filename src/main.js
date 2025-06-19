@@ -150,6 +150,14 @@ guessInput.addEventListener("keydown", (event) => {
   }
 });
 
+function flashRed() {
+  const gamePage = document.body; // Assuming the game page is the body element
+  gamePage.style.backgroundColor = "#ff000099"; // Set background to red
+  setTimeout(() => {
+    gamePage.style.backgroundColor = ""; // Reset background to normal after 0.5 seconds
+  }, 500);
+}
+
 // Event listener for the submit button
 submitButton.addEventListener("click", async () => {
   const guess = guessInput.value.trim().toLowerCase();
@@ -170,6 +178,7 @@ submitButton.addEventListener("click", async () => {
       displayCluesandGuesses(clueWords.length);
       displaySuccessMessage(mysteryWord, score);
     } else {
+      flashRed(); // Flash red when the guess is wrong
       shakeWrongGuess();
       if (currentClueIndex < clueWords.length) {
         displayCluesandGuesses(currentClueIndex + 1);
