@@ -151,10 +151,10 @@ guessInput.addEventListener("keydown", (event) => {
 });
 
 function flashRed() {
-  const gamePage = document.body; // Assuming the game page is the body element
-  gamePage.style.backgroundColor = "#ff000099"; // Set background to red
+  const textbox = guessInput; // Target the guess input textbox
+  textbox.style.backgroundColor = "#ffcccc"; // Set background to a lighter red
   setTimeout(() => {
-    gamePage.style.backgroundColor = ""; // Reset background to normal after 0.5 seconds
+    textbox.style.backgroundColor = ""; // Reset background to normal after 0.5 seconds
   }, 500);
 }
 
