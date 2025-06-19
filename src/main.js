@@ -154,6 +154,7 @@ function flashRed() {
   const textbox = guessInput; // Target the guess input textbox
   textbox.style.backgroundColor = "#ffcccc"; // Set background to a lighter red
   setTimeout(() => {
+    guessInput.value = "";
     textbox.style.backgroundColor = ""; // Reset background to normal after 0.5 seconds
   }, 500);
 }
@@ -161,9 +162,6 @@ function flashRed() {
 // Event listener for the submit button
 submitButton.addEventListener("click", async () => {
   const guess = guessInput.value.trim().toLowerCase();
-  if (!previousGuesses.includes(guess)) {
-    guessInput.value = "";
-  }
   submitButton.style.display = "none";
   gameMessage.textContent = "";
 
