@@ -10,7 +10,6 @@ const gameCodeDisplay = document.getElementById("game-code");
 const mysteryWordDisplay = document.getElementById("mystery-word-display");
 const clueWordDisplay = document.getElementById("clue-word-display");
 const guessInput = document.getElementById("guess-input");
-const submitButton = document.getElementById("submit-button");
 const codeError = document.getElementById("code-error");
 const gameMessage = document.getElementById("game-message");
 
@@ -65,14 +64,10 @@ function displaySuccessMessage(mysteryWord, score) {
 function shakeWrongGuess() {
   gameMessage.textContent = "";
   guessInput.classList.add("shake");
-  submitButton.classList.add("shake");
 
   // Remove the shake class after the animation ends
   guessInput.addEventListener("animationend", () =>
     guessInput.classList.remove("shake")
-  );
-  submitButton.addEventListener("animationend", () =>
-    submitButton.classList.remove("shake")
   );
 }
 
@@ -90,7 +85,6 @@ async function startGame() {
   mysteryWordDisplay.textContent = ""; // Clear any previous content
   clueWordDisplay.innerHTML = ""; // Clear any previous content
   guessInput.value = ""; // Clear input
-  submitButton.style.display = "none"; // Hide submit button
   gameMessage.textContent = "";
   guessInput.focus();
   currentClueIndex = 0;
@@ -133,20 +127,12 @@ joinExistingGameButton.addEventListener("click", async () => {
   }
 });
 
-// Event listener for the guess input
-guessInput.addEventListener("input", () => {
-  if (guessInput.value.trim() !== "") {
-    submitButton.style.display = "inline-block";
-  } else {
-    submitButton.style.display = "none";
-  }
-});
 
 // Event listener for the guess input
-guessInput.addEventListener("keydown", (event) => {
+guessInput.addEventListener("keydown", async (event) => {
   if (event.key === "Enter" && guessInput.value.trim() !== "") {
     // Trigger the submit button's click event
-    submitButton.click();
+    await submitGuess();
   }
 });
 
@@ -162,9 +148,8 @@ function flashRedThenDisplayClues(length) {
 }
 
 // Event listener for the submit button
-submitButton.addEventListener("click", async () => {
+async function submitGuess() {
   const guess = guessInput.value.trim().toLowerCase();
-  submitButton.style.display = "none";
   gameMessage.textContent = "";
 
   if (previousGuesses.includes(guess)) {
@@ -194,4 +179,4 @@ submitButton.addEventListener("click", async () => {
       }
     }
   }
-});
+}
