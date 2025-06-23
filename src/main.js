@@ -150,12 +150,14 @@ guessInput.addEventListener("keydown", (event) => {
   }
 });
 
-function flashRed() {
+function flashRedThenDisplayClues(length) {
   const textbox = guessInput; // Target the guess input textbox
   textbox.style.backgroundColor = "#ffcccc"; // Set background to a lighter red
   setTimeout(() => {
     guessInput.value = "";
-    textbox.style.backgroundColor = ""; // Reset background to normal after 0.5 seconds
+    textbox.style.backgroundColor = ""; // Reset background to normal
+    displayCluesandGuesses(length);
+    currentClueIndex++;
   }, 500);
 }
 
@@ -176,15 +178,15 @@ submitButton.addEventListener("click", async () => {
       displayCluesandGuesses(clueWords.length);
       displaySuccessMessage(mysteryWord, score);
     } else {
-      flashRed(); // Flash red when the guess is wrong
+      // flashRed();
       shakeWrongGuess();
-      if (currentClueIndex < clueWords.length) {
-        displayCluesandGuesses(currentClueIndex + 1);
-        currentClueIndex++;
-      } else {
+      if (currentClueIndex < clueWords.length) { // More attempts remaining
+        flashRedThenDisplayClues(currentClueIndex + 1);
+        
+      } else { // Game is over
         let score = await calculator.getScore();
         guessInput.style.display = "none";
-        displayCluesandGuesses(clueWords.length);
+        flashRedThenDisplayClues(clueWords.length);
         gameMessage.textContent = `Game over!  Your score is ${score}.`;
         mysteryWordDisplay.textContent = `The word was ${mysteryWord}`;
         mysteryWordDisplay.style.color = "red";
