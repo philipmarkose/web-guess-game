@@ -6,18 +6,27 @@ export class Calculator {
         this.model = model;
         this.guessCounter = 0;
         this.deduction = 0;
-        this.maxScore = [100, 95, 90, 70, 40];
+        this.maxScore = [100, 90, 70, 40, 0];
         this.numberOfGuessesDeduction = [0, 5, 10, 30, 40];
         this.score = 100;
+        this.useBasicCalculator = model===false;
     }
 
     static async create(mysteryWord) {
-        const model = await use.load();
-        const mysteryWordEmbedding = await model.embed([mysteryWord]);
-        return new Calculator(mysteryWord, mysteryWordEmbedding, model);
+        try {
+            const model = await use.load();
+            const mysteryWordEmbedding = await model.embed([mysteryWord]);
+            return new Calculator(mysteryWord, mysteryWordEmbedding, model);
+        } catch (error) {
+            console.log
+            ('using basic calculator');
+            return new Calculator(mysteryWord, false, false);
+        }
+        
     }
 
     async getScore() {
+        if(this.useBasicCalculator) {return this.maxScore[this.guessCounter-1]}
         this.score = this.score - this.numberOfGuessesDeduction[this.guessCounter-1];
         console.log(
             `Current score after ${this.guessCounter} guesses: ${this.score}`
@@ -26,8 +35,10 @@ export class Calculator {
     }
 
     async updateScore(guess) {
-        const guessEmbedding = await this.model.embed([guess]);
         this.guessCounter++;
+        if(this.useBasicCalculator){return Promise.resolve()}
+
+        const guessEmbedding = await this.model.embed([guess]);
         const similarityScore = this.cosineSimilarity(
             this.mysteryWordEmbedding.arraySync()[0],
             guessEmbedding.arraySync()[0]
