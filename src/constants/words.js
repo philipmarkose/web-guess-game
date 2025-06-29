@@ -956,7 +956,7 @@ export const wordData = {
   },
   1311: {
     word: "crane",
-    clues: ["bird", "lift", " строить", "neck", "machine"],
+    clues: ["bird", "lift", "construction", "neck", "machine"],
   },
   1312: {
     word: "palm",
@@ -1873,5 +1873,3889 @@ export const wordData = {
   1540: {
     word: "himalayas",
     clues: ["mountains", "asia", "nepal", "high", "range"],
+  },
+  1541: {
+    word: "fruit",
+    clues: ["apple", "banana", "orange", "grape", "sweet"],
+  },
+  1542: {
+    word: "sweet",
+    clues: ["candy", "sugar", "dessert", "chocolate", "taste"],
+  },
+  1543: {
+    word: "sea",
+    clues: ["ocean", "water", "waves", "blue", "fish"],
+  },
+  1544: {
+    word: "waves",
+    clues: ["ocean", "sea", "surf", "motion", "sound"],
+  },
+  1545: {
+    word: "hot",
+    clues: ["warm", "fire", "summer", "spicy", "heat"],
+  },
+  1546: {
+    word: "bright",
+    clues: ["light", "sun", "shine", "colorful", "clear"],
+  },
+  1547: {
+    word: "yellow",
+    clues: ["color", "sun", "banana", "bright", "lemon"],
+  },
+  1548: {
+    word: "read",
+    clues: ["book", "pages", "words", "story", "learn"],
+  },
+  1549: {
+    word: "pages",
+    clues: ["book", "paper", "read", "words", "notes"],
+  },
+  1550: {
+    word: "words",
+    clues: ["letters", "language", "text", "read", "write"],
+  },
+  1551: {
+    word: "story",
+    clues: ["tale", "fiction", "book", "read", "plot"],
+  },
+  1552: {
+    word: "learn",
+    clues: ["study", "school", "knowledge", "teach", "education"],
+  },
+  1553: {
+    word: "notes",
+    clues: ["paper", "write", "music", "study", "reminder"],
+  },
+  1554: {
+    word: "home",
+    clues: ["house", "building", "family", "living", "place"],
+  },
+  1555: {
+    word: "building",
+    clues: ["structure", "home", "office", "construction", "place"],
+  },
+  1556: {
+    word: "drive",
+    clues: ["car", "wheels", "road", "travel", "vehicle"],
+  },
+  1557: {
+    word: "wheels",
+    clues: ["car", "bike", "round", "drive", "vehicle"],
+  },
+  1558: {
+    word: "plant",
+    clues: ["tree", "tall", "leaves", "branch", "grow"],
+  },
+  1559: {
+    word: "tall",
+    clues: ["high", "tree", "building", "height", "big"],
+  },
+  1560: {
+    word: "leaves",
+    clues: ["tree", "green", "branch", "fall", "plant"],
+  },
+  1561: {
+    word: "branch",
+    clues: ["tree", "leaves", "wood", "grow", "plant"],
+  },
+  1562: {
+    word: "wings",
+    clues: ["bird", "feathers", "fly", "air", "chirp"],
+  },
+  1563: {
+    word: "feathers",
+    clues: ["bird", "soft", "wings", "fly", "air"],
+  },
+  1564: {
+    word: "chirp",
+    clues: ["bird", "sound", "sing", "tweet", "wings"],
+  },
+  1565: {
+    word: "bloom",
+    clues: ["flower", "petal", "garden", "spring", "grow"],
+  },
+  1566: {
+    word: "petal",
+    clues: ["flower", "bloom", "color", "garden", "soft"],
+  },
+  1567: {
+    word: "garden",
+    clues: ["flowers", "plants", "bloom", "yard", "grow"],
+  },
+  1568: {
+    word: "flow",
+    clues: ["water", "river", "bank", "motion", "stream"],
+  },
+  1569: {
+    word: "bank",
+    clues: ["money", "river", "cash", "save", "spend"],
+  },
+  1570: {
+    word: "hill",
+    clues: ["mountain", "high", "climb", "land", "slope"],
+  },
+  1571: {
+    word: "high",
+    clues: ["tall", "hill", "mountain", "altitude", "sky"],
+  },
+  1572: {
+    word: "climb",
+    clues: ["hill", "mountain", "up", "height", "effort"],
+  },
+  1573: {
+    word: "town",
+    clues: ["city", "people", "buildings", "community", "place"],
+  },
+  1574: {
+    word: "people",
+    clues: ["human", "group", "community", "crowd", "individual"],
+  },
+  1575: {
+    word: "buildings",
+    clues: ["structure", "city", "home", "office", "construction"],
+  },
+  1576: {
+    word: "nation",
+    clues: ["country", "land", "flag", "people", "government"],
+  },
+  1577: {
+    word: "land",
+    clues: ["earth", "ground", "country", "soil", "territory"],
+  },
+  1578: {
+    word: "flag",
+    clues: ["nation", "symbol", "country", "banner", "colors"],
+  },
+  1579: {
+    word: "fun",
+    clues: ["play", "games", "enjoy", "laugh", "happy"],
+  },
+  1580: {
+    word: "rules",
+    clues: ["law", "game", "guide", "control", "order"],
+  },
+  1581: {
+    word: "cards",
+    clues: ["game", "deck", "play", "hand", "fun"],
+  },
+  1582: {
+    word: "eat",
+    clues: ["food", "taste", "dish", "meal", "consume"],
+  },
+  1583: {
+    word: "taste",
+    clues: ["flavor", "food", "sweet", "spicy", "sour"],
+  },
+  1584: {
+    word: "dish",
+    clues: ["plate", "food", "meal", "serve", "eat"],
+  },
+  1585: {
+    word: "meal",
+    clues: ["food", "eat", "dish", "dinner", "lunch"],
+  },
+  1586: {
+    word: "clock",
+    clues: ["time", "hour", "minute", "second", "year"],
+  },
+  1587: {
+    word: "hour",
+    clues: ["time", "clock", "minute", "day", "watch"],
+  },
+  1588: {
+    word: "minute",
+    clues: ["time", "clock", "hour", "second", "short"],
+  },
+  1589: {
+    word: "year",
+    clues: ["time", "calendar", "month", "day", "long"],
+  },
+  1590: {
+    word: "cash",
+    clues: ["money", "dollar", "buy", "spend", "currency"],
+  },
+  1591: {
+    word: "dollar",
+    clues: ["money", "cash", "currency", "buy", "spend"],
+  },
+  1592: {
+    word: "buy",
+    clues: ["purchase", "money", "spend", "shop", "cash"],
+  },
+  1593: {
+    word: "spend",
+    clues: ["money", "buy", "cash", "use", "pay"],
+  },
+  1594: {
+    word: "person",
+    clues: ["human", "individual", "happy", "help", "talk"],
+  },
+  1595: {
+    word: "happy",
+    clues: ["joy", "smile", "fun", "laugh", "cheerful"],
+  },
+  1596: {
+    word: "help",
+    clues: ["assist", "aid", "support", "guide", "give"],
+  },
+  1597: {
+    word: "talk",
+    clues: ["speak", "chat", "words", "conversation", "voice"],
+  },
+  1598: {
+    word: "study",
+    clues: ["learn", "books", "school", "student", "education"],
+  },
+  1599: {
+    word: "student",
+    clues: ["learn", "school", "study", "books", "class"],
+  },
+  1600: {
+    word: "books",
+    clues: ["read", "pages", "words", "library", "study"],
+  },
+  1601: {
+    word: "device",
+    clues: ["tool", "computer", "keyboard", "screen", "technology"],
+  },
+  1602: {
+    word: "keyboard",
+    clues: ["type", "computer", "keys", "device", "input"],
+  },
+  1603: {
+    word: "mouse",
+    clues: ["computer", "device", "click", "pointer", "screen"],
+  },
+  1604: {
+    word: "call",
+    clues: ["phone", "talk", "mobile", "voice", "contact"],
+  },
+  1605: {
+    word: "text",
+    clues: ["message", "words", "phone", "type", "send"],
+  },
+  1606: {
+    word: "mobile",
+    clues: ["phone", "device", "call", "text", "portable"],
+  },
+  1607: {
+    word: "actor",
+    clues: ["movie", "perform", "stage", "role", "celebrity"],
+  },
+  1608: {
+    word: "sing",
+    clues: ["voice", "song", "music", "lyrics", "perform"],
+  },
+  1609: {
+    word: "voice",
+    clues: ["sound", "talk", "sing", "speech", "tone"],
+  },
+  1610: {
+    word: "lyrics",
+    clues: ["song", "words", "music", "sing", "write"],
+  },
+  1611: {
+    word: "move",
+    clues: ["motion", "body", "action", "dance", "shift"],
+  },
+  1612: {
+    word: "body",
+    clues: ["human", "move", "health", "exercise", "physical"],
+  },
+  1613: {
+    word: "party",
+    clues: ["celebration", "fun", "dance", "friends", "event"],
+  },
+  1614: {
+    word: "paint",
+    clues: ["color", "brush", "art", "draw", "picture"],
+  },
+  1615: {
+    word: "zoo",
+    clues: ["animals", "visit", "wild", "nature", "place"],
+  },
+  1616: {
+    word: "work",
+    clues: ["job", "office", "career", "effort", "task"],
+  },
+  1617: {
+    word: "office",
+    clues: ["work", "desk", "boss", "career", "place"],
+  },
+  1618: {
+    word: "career",
+    clues: ["job", "work", "path", "success", "profession"],
+  },
+  1619: {
+    word: "salary",
+    clues: ["money", "job", "work", "pay", "income"],
+  },
+  1620: {
+    word: "boss",
+    clues: ["leader", "work", "office", "manager", "control"],
+  },
+  1621: {
+    word: "parents",
+    clues: ["family", "mother", "father", "children", "home"],
+  },
+  1622: {
+    word: "children",
+    clues: ["kids", "family", "parents", "play", "young"],
+  },
+  1623: {
+    word: "together",
+    clues: ["group", "team", "family", "friends", "unity"],
+  },
+  1624: {
+    word: "earth",
+    clues: ["planet", "nature", "world", "land", "ground"],
+  },
+  1625: {
+    word: "nature",
+    clues: ["earth", "trees", "animals", "environment", "green"],
+  },
+  1626: {
+    word: "draw",
+    clues: ["art", "picture", "paint", "sketch", "create"],
+  },
+  1627: {
+    word: "picture",
+    clues: ["image", "photo", "draw", "paint", "frame"],
+  },
+  1628: {
+    word: "museum",
+    clues: ["art", "history", "place", "visit", "exhibit"],
+  },
+  1629: {
+    word: "artist",
+    clues: ["paint", "draw", "create", "picture", "talent"],
+  },
+  1630: {
+    word: "fight",
+    clues: ["battle", "weapon", "war", "conflict", "action"],
+  },
+  1631: {
+    word: "battle",
+    clues: ["fight", "war", "weapon", "army", "conflict"],
+  },
+  1632: {
+    word: "weapon",
+    clues: ["gun", "knife", "battle", "fight", "danger"],
+  },
+  1633: {
+    word: "calm",
+    clues: ["peace", "quiet", "relax", "sleep", "control"],
+  },
+  1634: {
+    word: "sleep",
+    clues: ["rest", "bed", "dream", "night", "calm"],
+  },
+  1635: {
+    word: "wish",
+    clues: ["hope", "dream", "future", "want", "desire"],
+  },
+  1636: {
+    word: "future",
+    clues: ["time", "wish", "hope", "tomorrow", "plan"],
+  },
+  1637: {
+    word: "strong",
+    clues: ["power", "muscle", "control", "tough", "force"],
+  },
+  1638: {
+    word: "control",
+    clues: ["manage", "power", "boss", "strong", "lead"],
+  },
+  1639: {
+    word: "medicine",
+    clues: ["health", "doctor", "cure", "pill", "treatment"],
+  },
+  1640: {
+    word: "exercise",
+    clues: ["health", "body", "strong", "workout", "move"],
+  },
+  1641: {
+    word: "past",
+    clues: ["time", "old", "history", "events", "memory"],
+  },
+  1642: {
+    word: "old",
+    clues: ["past", "age", "history", "ancient", "time"],
+  },
+  1643: {
+    word: "events",
+    clues: ["past", "history", "happen", "time", "occasion"],
+  },
+  1644: {
+    word: "experiment",
+    clues: ["science", "test", "discover", "study", "research"],
+  },
+  1645: {
+    word: "discover",
+    clues: ["find", "explore", "experiment", "learn", "new"],
+  },
+  1646: {
+    word: "math",
+    clues: ["numbers", "study", "school", "calculate", "science"],
+  },
+  1647: {
+    word: "god",
+    clues: ["faith", "pray", "religion", "believe", "creator"],
+  },
+  1648: {
+    word: "faith",
+    clues: ["belief", "god", "religion", "trust", "pray"],
+  },
+  1649: {
+    word: "pray",
+    clues: ["faith", "god", "hope", "religion", "wish"],
+  },
+  1650: {
+    word: "believe",
+    clues: ["faith", "trust", "hope", "god", "think"],
+  },
+  1651: {
+    word: "rule",
+    clues: ["law", "judge", "control", "order", "guide"],
+  },
+  1652: {
+    word: "judge",
+    clues: ["court", "law", "rule", "crime", "decision"],
+  },
+  1653: {
+    word: "crime",
+    clues: ["law", "judge", "danger", "police", "illegal"],
+  },
+  1654: {
+    word: "see",
+    clues: ["look", "vision", "eyes", "watch", "observe"],
+  },
+  1655: {
+    word: "place",
+    clues: ["location", "spot", "area", "earth", "explore"],
+  },
+  1656: {
+    word: "explore",
+    clues: ["discover", "place", "travel", "find", "adventure"],
+  },
+  1657: {
+    word: "team",
+    clues: ["group", "work", "together", "win", "play"],
+  },
+  1658: {
+    word: "win",
+    clues: ["victory", "team", "success", "game", "prize"],
+  },
+  1659: {
+    word: "clothes",
+    clues: ["wear", "style", "fashion", "beauty", "design"],
+  },
+  1660: {
+    word: "style",
+    clues: ["fashion", "clothes", "design", "beauty", "trend"],
+  },
+  1661: {
+    word: "wear",
+    clues: ["clothes", "style", "fashion", "put on", "beauty"],
+  },
+  1662: {
+    word: "beauty",
+    clues: ["style", "design", "fashion", "pretty", "art"],
+  },
+  1663: {
+    word: "design",
+    clues: ["create", "style", "beauty", "art", "fashion"],
+  },
+  1664: {
+    word: "company",
+    clues: ["business", "sell", "work", "office", "career"],
+  },
+  1665: {
+    word: "sell",
+    clues: ["buy", "money", "company", "trade", "market"],
+  },
+  1666: {
+    word: "report",
+    clues: ["news", "write", "information", "online", "paper"],
+  },
+  1667: {
+    word: "online",
+    clues: ["web", "email", "search", "connect", "internet"],
+  },
+  1668: {
+    word: "web",
+    clues: ["online", "internet", "search", "connect", "site"],
+  },
+  1669: {
+    word: "email",
+    clues: ["message", "online", "send", "web", "connect"],
+  },
+  1670: {
+    word: "search",
+    clues: ["find", "web", "online", "explore", "discover"],
+  },
+  1603: {
+    word: "connect",
+    clues: ["link", "join", "network", "attach", "bond"],
+  },
+  1604: {
+    word: "stars",
+    clues: ["sky", "night", "shine", "light", "space"],
+  },
+  1605: {
+    word: "planets",
+    clues: ["space", "orbit", "solar", "earth", "stars"],
+  },
+  1606: {
+    word: "universe",
+    clues: ["space", "stars", "planets", "galaxy", "cosmos"],
+  },
+  1607: {
+    word: "rocket",
+    clues: ["space", "launch", "fly", "engine", "travel"],
+  },
+  1608: {
+    word: "sky",
+    clues: ["blue", "clouds", "stars", "sun", "air"],
+  },
+  1609: {
+    word: "rain",
+    clues: ["water", "clouds", "wet", "storm", "drops"],
+  },
+  1610: {
+    word: "wind",
+    clues: ["air", "blow", "storm", "breeze", "weather"],
+  },
+  1611: {
+    word: "afraid",
+    clues: ["scared", "fear", "danger", "nervous", "worry"],
+  },
+  1612: {
+    word: "scared",
+    clues: ["afraid", "fear", "danger", "shock", "nervous"],
+  },
+  1613: {
+    word: "danger",
+    clues: ["risk", "harm", "fear", "threat", "unsafe"],
+  },
+  1614: {
+    word: "dark",
+    clues: ["night", "black", "shadow", "light", "dim"],
+  },
+  1615: {
+    word: "alone",
+    clues: ["lonely", "single", "solo", "quiet", "independent"],
+  },
+  1616: {
+    word: "smile",
+    clues: ["happy", "joy", "face", "laugh", "expression"],
+  },
+  1617: {
+    word: "good",
+    clues: ["nice", "kind", "positive", "happy", "great"],
+  },
+  1618: {
+    word: "mad",
+    clues: ["angry", "upset", "rage", "frustrated", "annoyed"],
+  },
+  1619: {
+    word: "upset",
+    clues: ["sad", "angry", "mad", "cry", "hurt"],
+  },
+  1620: {
+    word: "yell",
+    clues: ["shout", "loud", "angry", "voice", "scream"],
+  },
+  1621: {
+    word: "bad",
+    clues: ["wrong", "negative", "evil", "sad", "poor"],
+  },
+  1622: {
+    word: "cry",
+    clues: ["tears", "sad", "hurt", "emotion", "upset"],
+  },
+  1623: {
+    word: "tears",
+    clues: ["cry", "sad", "eyes", "emotion", "hurt"],
+  },
+  1624: {
+    word: "lonely",
+    clues: ["alone", "sad", "quiet", "empty", "hurt"],
+  },
+  1625: {
+    word: "hurt",
+    clues: ["pain", "sad", "injury", "emotion", "cry"],
+  },
+  1626: {
+    word: "shock",
+    clues: ["surprise", "startle", "amaze", "fear", "wow"],
+  },
+  1627: {
+    word: "wow",
+    clues: ["amaze", "surprise", "shock", "startle", "impress"],
+  },
+  1628: {
+    word: "startle",
+    clues: ["shock", "surprise", "amaze", "fear", "unexpected"],
+  },
+  1629: {
+    word: "amaze",
+    clues: ["wow", "impress", "surprise", "shock", "wonder"],
+  },
+  1630: {
+    word: "unexpect",
+    clues: ["surprise", "shock", "startle", "amaze", "unknown"],
+  },
+  1631: {
+    word: "honest",
+    clues: ["truth", "real", "safe", "nice", "trust"],
+  },
+  1632: {
+    word: "safe",
+    clues: ["secure", "protect", "honest", "care", "trust"],
+  },
+  1633: {
+    word: "care",
+    clues: ["help", "safe", "love", "protect", "kind"],
+  },
+  1634: {
+    word: "angry",
+    clues: ["mad", "upset", "rage", "yell", "frustrated"],
+  },
+  1635: {
+    word: "enemy",
+    clues: ["foe", "danger", "angry", "fight", "opponent"],
+  },
+  1636: {
+    word: "sorry",
+    clues: ["apologize", "regret", "sad", "care", "nice"],
+  },
+  1637: {
+    word: "nice",
+    clues: ["kind", "good", "happy", "safe", "honest"],
+  },
+  1638: {
+    word: "truth",
+    clues: ["honest", "real", "word", "safe", "trust"],
+  },
+  1639: {
+    word: "real",
+    clues: ["truth", "honest", "actual", "safe", "true"],
+  },
+  1640: {
+    word: "word",
+    clues: ["language", "speak", "truth", "write", "real"],
+  },
+  1641: {
+    word: "brave",
+    clues: ["strong", "fearless", "bold", "smart", "courage"],
+  },
+  1642: {
+    word: "smart",
+    clues: ["intelligent", "clever", "know", "teach", "brave"],
+  },
+  1643: {
+    word: "know",
+    clues: ["learn", "smart", "teach", "understand", "truth"],
+  },
+  1644: {
+    word: "teach",
+    clues: ["learn", "school", "know", "guide", "help"],
+  },
+  1645: {
+    word: "wait",
+    clues: ["pause", "time", "stop", "free", "patient"],
+  },
+  1646: {
+    word: "free",
+    clues: ["liberty", "open", "safe", "wait", "right"],
+  },
+  1647: {
+    word: "right",
+    clues: ["correct", "truth", "safe", "free", "same"],
+  },
+  1648: {
+    word: "same",
+    clues: ["equal", "similar", "right", "truth", "match"],
+  },
+  1649: {
+    word: "achieve",
+    clues: ["goal", "success", "win", "better", "forward"],
+  },
+  1650: {
+    word: "goal",
+    clues: ["achieve", "win", "success", "try", "better"],
+  },
+  1651: {
+    word: "lose",
+    clues: ["fail", "sad", "miss", "goal", "try"],
+  },
+  1652: {
+    word: "sad",
+    clues: ["cry", "hurt", "lose", "lonely", "upset"],
+  },
+  1653: {
+    word: "try",
+    clues: ["attempt", "achieve", "goal", "lose", "effort"],
+  },
+  1654: {
+    word: "different",
+    clues: ["unique", "change", "grow", "better", "new"],
+  },
+  1655: {
+    word: "grow",
+    clues: ["better", "forward", "learn", "different", "achieve"],
+  },
+  1656: {
+    word: "better",
+    clues: ["improve", "grow", "forward", "achieve", "goal"],
+  },
+  1657: {
+    word: "forward",
+    clues: ["move", "better", "grow", "achieve", "goal"],
+  },
+  1658: {
+    word: "idea",
+    clues: ["thought", "create", "speak", "listen", "grow"],
+  },
+  1659: {
+    word: "speak",
+    clues: ["talk", "listen", "word", "idea", "voice"],
+  },
+  1660: {
+    word: "listen",
+    clues: ["hear", "speak", "idea", "word", "understand"],
+  },
+  1661: {
+    word: "heat",
+    clues: ["temperature", "fuel", "warm", "fire", "hot"],
+  },
+  1662: {
+    word: "fuel",
+    clues: ["energy", "heat", "fire", "burn", "power"],
+  },
+  1663: {
+    word: "animals",
+    clues: ["wild", "nature", "life", "dirty", "sick"],
+  },
+  1664: {
+    word: "dirty",
+    clues: ["messy", "animals", "sick", "clean", "mud"],
+  },
+  1665: {
+    word: "sick",
+    clues: ["ill", "dirty", "hurt", "animals", "weak"],
+  },
+  1666: {
+    word: "temperature",
+    clues: ["heat", "cold", "weather", "fuel", "warm"],
+  },
+  1667: {
+    word: "build",
+    clues: ["construct", "create", "make", "develop", "grow"],
+  },
+  1668: {
+    word: "market",
+    clues: ["sell", "trade", "buy", "business", "shop"],
+  },
+  1669: {
+    word: "trade",
+    clues: ["exchange", "market", "sell", "buy", "deal"],
+  },
+  1670: {
+    word: "group",
+    clues: ["team", "gather", "people", "community", "together"],
+  },
+  1671: {
+    word: "local",
+    clues: ["nearby", "community", "close", "area", "region"],
+  },
+  1672: {
+    word: "vote",
+    clues: ["elect", "choose", "decision", "poll", "support"],
+  },
+  1673: {
+    word: "duty",
+    clues: ["responsibility", "task", "job", "work", "role"],
+  },
+  1674: {
+    word: "moral",
+    clues: ["ethics", "right", "good", "values", "principles"],
+  },
+  1675: {
+    word: "wrong",
+    clues: ["incorrect", "bad", "false", "mistake", "error"],
+  },
+  1676: {
+    word: "important",
+    clues: ["significant", "key", "vital", "necessary", "essential"],
+  },
+  1677: {
+    word: "self",
+    clues: ["identity", "individual", "person", "own", "ego"],
+  },
+  1678: {
+    word: "name",
+    clues: ["title", "word", "identity", "call", "label"],
+  },
+  1679: {
+    word: "who",
+    clues: ["person", "identity", "name", "question", "individual"],
+  },
+  1680: {
+    word: "all",
+    clues: ["everyone", "everything", "whole", "complete", "total"],
+  },
+  1681: {
+    word: "argue",
+    clues: ["debate", "disagree", "fight", "discuss", "reason"],
+  },
+  1682: {
+    word: "agree",
+    clues: ["accept", "approve", "consent", "support", "same"],
+  },
+  1683: {
+    word: "middle",
+    clues: ["center", "between", "half", "average", "medium"],
+  },
+  1684: {
+    word: "both",
+    clues: ["two", "together", "pair", "same", "equal"],
+  },
+  1685: {
+    word: "solution",
+    clues: ["answer", "resolve", "fix", "problem", "result"],
+  },
+  1686: {
+    word: "deal",
+    clues: ["agreement", "trade", "solution", "contract", "offer"],
+  },
+  1687: {
+    word: "problem",
+    clues: ["issue", "challenge", "difficulty", "trouble", "question"],
+  },
+  1688: {
+    word: "forgive",
+    clues: ["pardon", "excuse", "accept", "apologize", "kind"],
+  },
+  1689: {
+    word: "support",
+    clues: ["help", "assist", "agree", "care", "back"],
+  },
+  1690: {
+    word: "feel",
+    clues: ["emotion", "sense", "touch", "experience", "understand"],
+  },
+  1691: {
+    word: "understand",
+    clues: ["comprehend", "know", "learn", "feel", "realize"],
+  },
+  1692: {
+    word: "want",
+    clues: ["desire", "need", "wish", "hope", "seek"],
+  },
+  1693: {
+    word: "excited",
+    clues: ["happy", "thrilled", "joyful", "eager", "enthusiastic"],
+  },
+  1694: {
+    word: "create",
+    clues: ["make", "build", "develop", "design", "invent"],
+  },
+  1695: {
+    word: "make",
+    clues: ["create", "build", "produce", "construct", "form"],
+  },
+  1696: {
+    word: "think",
+    clues: ["consider", "ponder", "reason", "understand", "idea"],
+  },
+  1697: {
+    word: "thing",
+    clues: ["object", "item", "stuff", "matter", "idea"],
+  },
+  1698: {
+    word: "first",
+    clues: ["beginning", "start", "initial", "primary", "early"],
+  },
+  1699: {
+    word: "find",
+    clues: ["discover", "locate", "search", "seek", "get"],
+  },
+  1700: {
+    word: "excite",
+    clues: ["thrill", "energize", "happy", "enthusiastic", "stimulate"],
+  },
+  1701: {
+    word: "go",
+    clues: ["move", "travel", "leave", "start", "proceed"],
+  },
+  1702: {
+    word: "way",
+    clues: ["path", "direction", "method", "route", "style"],
+  },
+  1703: {
+    word: "direction",
+    clues: ["way", "path", "guide", "north", "south"],
+  },
+  1704: {
+    word: "north",
+    clues: ["direction", "compass", "up", "cold", "pole"],
+  },
+  1705: {
+    word: "south",
+    clues: ["direction", "compass", "down", "warm", "pole"],
+  },
+  1706: {
+    word: "show",
+    clues: ["display", "present", "reveal", "exhibit", "tell"],
+  },
+  1707: {
+    word: "famous",
+    clues: ["popular", "known", "celebrity", "recognize", "legend"],
+  },
+  1708: {
+    word: "remember",
+    clues: ["recall", "memory", "think", "know", "past"],
+  },
+  1709: {
+    word: "end",
+    clues: ["finish", "stop", "complete", "final", "close"],
+  },
+  1710: {
+    word: "reach",
+    clues: ["arrive", "get", "touch", "extend", "goal"],
+  },
+  1711: {
+    word: "come",
+    clues: ["arrive", "reach", "go", "move", "approach"],
+  },
+  1712: {
+    word: "leave",
+    clues: ["go", "exit", "depart", "move", "abandon"],
+  },
+  1713: {
+    word: "start",
+    clues: ["begin", "first", "go", "create", "initial"],
+  },
+  1714: {
+    word: "bus",
+    clues: ["vehicle", "transport", "travel", "ride", "stop"],
+  },
+  1715: {
+    word: "truck",
+    clues: ["vehicle", "transport", "cargo", "big", "drive"],
+  },
+  1716: {
+    word: "big",
+    clues: ["large", "huge", "great", "size", "massive"],
+  },
+  1717: {
+    word: "fast",
+    clues: ["quick", "speed", "rapid", "swift", "move"],
+  },
+  1718: {
+    word: "walk",
+    clues: ["step", "move", "go", "stroll", "pace"],
+  },
+  1719: {
+    word: "meet",
+    clues: ["gather", "encounter", "see", "introduce", "join"],
+  },
+  1720: {
+    word: "stop",
+    clues: ["halt", "end", "pause", "cease", "finish"],
+  },
+  1721: {
+    word: "lot",
+    clues: ["many", "much", "area", "space", "quantity"],
+  },
+  1722: {
+    word: "station",
+    clues: ["place", "stop", "location", "base", "terminal"],
+  },
+  1723: {
+    word: "machine",
+    clues: ["device", "tool", "mechanical", "engine", "equipment"],
+  },
+  1724: {
+    word: "turn",
+    clues: ["rotate", "change", "move", "twist", "direction"],
+  },
+  1725: {
+    word: "black",
+    clues: ["dark", "color", "shade", "night", "ink"],
+  },
+  1726: {
+    word: "rubber",
+    clues: ["material", "elastic", "stretch", "tire", "soft"],
+  },
+  1727: {
+    word: "sit",
+    clues: ["rest", "chair", "seat", "stay", "position"],
+  },
+  1728: {
+    word: "inside",
+    clues: ["within", "interior", "inner", "contained", "enclosed"],
+  },
+  1729: {
+    word: "side",
+    clues: ["edge", "part", "border", "aspect", "surface"],
+  },
+  1730: {
+    word: "reflect",
+    clues: ["mirror", "bounce", "image", "light", "think"],
+  },
+  1731: {
+    word: "open",
+    clues: ["unlock", "start", "accessible", "free", "expose"],
+  },
+  1732: {
+    word: "close",
+    clues: ["shut", "end", "near", "finish", "seal"],
+  },
+  1733: {
+    word: "top",
+    clues: ["highest", "peak", "summit", "upper", "best"],
+  },
+  1734: {
+    word: "protect",
+    clues: ["guard", "shield", "defend", "safe", "secure"],
+  },
+  1735: {
+    word: "outside",
+    clues: ["exterior", "out", "external", "beyond", "surface"],
+  },
+  1736: {
+    word: "storage",
+    clues: ["keep", "hold", "space", "store", "container"],
+  },
+  1737: {
+    word: "front",
+    clues: ["ahead", "face", "forward", "lead", "position"],
+  },
+  1738: {
+    word: "slow",
+    clues: ["not fast", "gradual", "delay", "steady", "calm"],
+  },
+  1739: {
+    word: "speed",
+    clues: ["fast", "quick", "velocity", "rate", "pace"],
+  },
+  1740: {
+    word: "tv",
+    clues: ["television", "screen", "watch", "media", "broadcast"],
+  },
+  1741: {
+    word: "number",
+    clues: ["count", "digit", "math", "figure", "quantity"],
+  },
+  1742: {
+    word: "part",
+    clues: ["piece", "section", "portion", "component", "fragment"],
+  },
+  1743: {
+    word: "send",
+    clues: ["deliver", "transmit", "mail", "dispatch", "transfer"],
+  },
+  1744: {
+    word: "signal",
+    clues: ["message", "transmit", "communication", "wave", "alert"],
+  },
+  1745: {
+    word: "receive",
+    clues: ["get", "accept", "take", "collect", "obtain"],
+  },
+  1746: {
+    word: "wire",
+    clues: ["cable", "electric", "connect", "metal", "line"],
+  },
+  1747: {
+    word: "hear",
+    clues: ["listen", "sound", "ear", "perceive", "audio"],
+  },
+  1748: {
+    word: "loud",
+    clues: ["noisy", "sound", "volume", "strong", "intense"],
+  },
+  1749: {
+    word: "soft",
+    clues: ["gentle", "quiet", "smooth", "light", "delicate"],
+  },
+  1750: {
+    word: "off",
+    clues: ["away", "stop", "disable", "down", "end"],
+  },
+  1751: {
+    word: "quiet",
+    clues: ["silent", "calm", "soft", "peaceful", "still"],
+  },
+  1752: {
+    word: "orchestra",
+    clues: ["music", "group", "instruments", "perform", "ensemble"],
+  },
+  1753: {
+    word: "instruments",
+    clues: ["tools", "music", "play", "sound", "equipment"],
+  },
+  1754: {
+    word: "conductor",
+    clues: ["leader", "orchestra", "guide", "music", "director"],
+  },
+  1755: {
+    word: "classical",
+    clues: ["music", "traditional", "style", "genre", "orchestra"],
+  },
+  1756: {
+    word: "chords",
+    clues: ["music", "notes", "play", "sound", "harmony"],
+  },
+  1757: {
+    word: "tune",
+    clues: ["melody", "music", "sound", "adjust", "song"],
+  },
+  1758: {
+    word: "hum",
+    clues: ["sound", "sing", "buzz", "music", "vibrate"],
+  },
+  1759: {
+    word: "sequence",
+    clues: ["order", "pattern", "arrange", "series", "steps"],
+  },
+  1760: {
+    word: "tempo",
+    clues: ["speed", "music", "rhythm", "pace", "time"],
+  },
+  1761: {
+    word: "pattern",
+    clues: ["design", "sequence", "repeat", "arrange", "structure"],
+  },
+  1762: {
+    word: "stretched",
+    clues: ["extended", "long", "pulled", "elastic", "spread"],
+  },
+  1763: {
+    word: "frame",
+    clues: ["structure", "border", "outline", "support", "shape"],
+  },
+  1764: {
+    word: "surface",
+    clues: ["top", "outside", "layer", "area", "exterior"],
+  },
+  1765: {
+    word: "colors",
+    clues: ["hues", "shades", "paint", "bright", "visual"],
+  },
+  1766: {
+    word: "mixing",
+    clues: ["combine", "blend", "stir", "merge", "unite"],
+  },
+  1767: {
+    word: "board",
+    clues: ["panel", "flat", "wood", "surface", "plank"],
+  },
+  1768: {
+    word: "stand",
+    clues: ["upright", "support", "hold", "position", "base"],
+  },
+  1769: {
+    word: "display",
+    clues: ["show", "present", "screen", "exhibit", "visual"],
+  },
+  1770: {
+    word: "holds",
+    clues: ["grasp", "contain", "keep", "support", "secure"],
+  },
+  1771: {
+    word: "tool",
+    clues: ["instrument", "device", "equipment", "use", "work"],
+  },
+  1772: {
+    word: "hair",
+    clues: ["strand", "head", "growth", "style", "brush"],
+  },
+  1773: {
+    word: "apply",
+    clues: ["use", "put", "implement", "submit", "request"],
+  },
+  1774: {
+    word: "painting",
+    clues: ["art", "canvas", "brush", "color", "picture"],
+  },
+  1775: {
+    word: "billions",
+    clues: ["many", "large number", "count", "wealth", "vast"],
+  },
+  1776: {
+    word: "solar",
+    clues: ["sun", "energy", "light", "system", "power"],
+  },
+  1777: {
+    word: "collection",
+    clues: ["group", "gather", "set", "assemble", "accumulate"],
+  },
+  1778: {
+    word: "clouds",
+    clues: ["sky", "white", "fluffy", "weather", "rain"],
+  },
+  1779: {
+    word: "dust",
+    clues: ["particles", "dirt", "clean", "air", "tiny"],
+  },
+  1780: {
+    word: "interstellar",
+    clues: ["space", "stars", "galaxy", "cosmic", "universe"],
+  },
+  1781: {
+    word: "orbit",
+    clues: ["circle", "path", "planet", "revolve", "space"],
+  },
+  1782: {
+    word: "celestial",
+    clues: ["heavenly", "stars", "sky", "space", "cosmic"],
+  },
+  1783: {
+    word: "ice",
+    clues: ["cold", "frozen", "water", "snow", "solid"],
+  },
+  1784: {
+    word: "orbits",
+    clues: ["revolves", "path", "circle", "space", "planet"],
+  },
+  1785: {
+    word: "snowball",
+    clues: ["winter", "cold", "ice", "throw", "round"],
+  },
+  1786: {
+    word: "young",
+    clues: ["new", "child", "fresh", "age", "small"],
+  },
+  1787: {
+    word: "cow",
+    clues: ["animal", "milk", "farm", "grass", "moo"],
+  },
+  1788: {
+    word: "legs",
+    clues: ["limbs", "walk", "run", "body", "stand"],
+  },
+  1789: {
+    word: "muscle",
+    clues: ["strength", "body", "exercise", "power", "tissue"],
+  },
+  1790: {
+    word: "baby",
+    clues: ["infant", "child", "young", "small", "cute"],
+  },
+  1791: {
+    word: "boat",
+    clues: ["water", "sail", "vessel", "ship", "float"],
+  },
+  1792: {
+    word: "sail",
+    clues: ["boat", "wind", "water", "travel", "ship"],
+  },
+  1793: {
+    word: "vessel",
+    clues: ["ship", "boat", "container", "transport", "water"],
+  },
+  1794: {
+    word: "metal",
+    clues: ["material", "hard", "iron", "steel", "shiny"],
+  },
+  1795: {
+    word: "foot",
+    clues: ["limb", "walk", "step", "shoe", "body"],
+  },
+  1796: {
+    word: "luck",
+    clues: ["chance", "fortune", "good", "success", "random"],
+  },
+  1797: {
+    word: "shaped",
+    clues: ["form", "design", "structure", "outline", "molded"],
+  },
+  1798: {
+    word: "cockpit",
+    clues: ["plane", "pilot", "control", "seat", "flight"],
+  },
+  1799: {
+    word: "operator",
+    clues: ["controller", "driver", "machine", "worker", "handle"],
+  },
+  1800: {
+    word: "border",
+    clues: ["edge", "boundary", "limit", "line", "country"],
+  },
+  1801: {
+    word: "tacos",
+    clues: ["food", "Mexican", "shell", "meat", "spicy"],
+  },
+  1802: {
+    word: "measure",
+    clues: ["calculate", "size", "length", "scale", "amount"],
+  },
+  1803: {
+    word: "lines",
+    clues: ["straight", "draw", "edge", "mark", "border"],
+  },
+  1804: {
+    word: "length",
+    clues: ["distance", "measure", "long", "size", "extent"],
+  },
+  1805: {
+    word: "edge",
+    clues: ["border", "side", "limit", "boundary", "sharp"],
+  },
+  1806: {
+    word: "long",
+    clues: ["length", "distance", "time", "extended", "far"],
+  },
+  1807: {
+    word: "hide",
+    clues: ["conceal", "cover", "secret", "protect", "disguise"],
+  },
+  1808: {
+    word: "garment",
+    clues: ["clothing", "wear", "fabric", "dress", "outfit"],
+  },
+  1809: {
+    word: "air",
+    clues: ["oxygen", "breathe", "wind", "atmosphere", "sky"],
+  },
+  1810: {
+    word: "select",
+    clues: ["choose", "pick", "option", "decision", "highlight"],
+  },
+  1811: {
+    word: "version",
+    clues: ["type", "edition", "model", "variant", "update"],
+  },
+  1812: {
+    word: "push",
+    clues: ["force", "move", "press", "shove", "effort"],
+  },
+  1813: {
+    word: "influence",
+    clues: ["impact", "effect", "control", "power", "persuade"],
+  },
+  1814: {
+    word: "myth",
+    clues: ["legend", "story", "fiction", "belief", "ancient"],
+  },
+  1815: {
+    word: "ireland",
+    clues: ["country", "green", "island", "Celtic", "Europe"],
+  },
+  1816: {
+    word: "fairy",
+    clues: ["magic", "myth", "tiny", "wings", "story"],
+  },
+  1817: {
+    word: "noise",
+    clues: ["sound", "loud", "disturbance", "audio", "unpleasant"],
+  },
+  1818: {
+    word: "explosion",
+    clues: ["blast", "boom", "burst", "fire", "sudden"],
+  },
+  1819: {
+    word: "sudden",
+    clues: ["unexpected", "quick", "instant", "surprise", "abrupt"],
+  },
+  1820: {
+    word: "cells",
+    clues: ["biology", "life", "small", "organism", "structure"],
+  },
+  1821: {
+    word: "bone",
+    clues: ["skeleton", "hard", "body", "structure", "calcium"],
+  },
+  1822: {
+    word: "column",
+    clues: ["pillar", "vertical", "support", "structure", "row"],
+  },
+  1823: {
+    word: "test",
+    clues: ["exam", "check", "trial", "evaluate", "experiment"],
+  },
+  1824: {
+    word: "research",
+    clues: ["study", "investigate", "science", "experiment", "discover"],
+  },
+  1825: {
+    word: "laboratory",
+    clues: ["science", "experiment", "research", "test", "facility"],
+  },
+  1826: {
+    word: "reborn",
+    clues: ["renewed", "new", "life", "start", "beginning"],
+  },
+  1827: {
+    word: "immortal",
+    clues: ["eternal", "forever", "life", "undying", "legend"],
+  },
+  1828: {
+    word: "weigh",
+    clues: ["measure", "scale", "mass", "balance", "heavy"],
+  },
+  1829: {
+    word: "teeth",
+    clues: ["mouth", "bite", "chew", "white", "dentist"],
+  },
+  1830: {
+    word: "swimming",
+    clues: ["water", "sport", "pool", "exercise", "float"],
+  },
+  1831: {
+    word: "predator",
+    clues: ["hunter", "animal", "prey", "danger", "wild"],
+  },
+  1832: {
+    word: "leather",
+    clues: ["material", "hide", "fabric", "durable", "animal"],
+  },
+  1833: {
+    word: "crack",
+    clues: ["break", "split", "gap", "damage", "fracture"],
+  },
+  1834: {
+    word: "lash",
+    clues: ["whip", "strike", "eyelash", "hit", "snap"],
+  },
+  1835: {
+    word: "continent",
+    clues: ["landmass", "earth", "region", "geography", "large"],
+  },
+  1836: {
+    word: "down",
+    clues: ["below", "fall", "soft", "feathers", "lower"],
+  },
+  1837: {
+    word: "sydney",
+    clues: ["city", "Australia", "harbor", "opera house", "urban"],
+  },
+  1838: {
+    word: "other",
+    clues: ["different", "alternative", "another", "else", "choice"],
+  },
+  1839: {
+    word: "unknown",
+    clues: ["mystery", "hidden", "unfamiliar", "secret", "unsure"],
+  },
+  1840: {
+    word: "extraterrestrial",
+    clues: ["alien", "space", "unknown", "cosmic", "outside"],
+  },
+  1841: {
+    word: "cool",
+    clues: ["chill", "calm", "cold", "stylish", "relaxed"],
+  },
+  1842: {
+    word: "blow",
+    clues: ["hit", "strike", "wind", "burst", "impact"],
+  },
+  1843: {
+    word: "sport",
+    clues: ["game", "competition", "athletic", "team", "exercise"],
+  },
+  1844: {
+    word: "supporter",
+    clues: ["fan", "helper", "advocate", "ally", "backer"],
+  },
+  1845: {
+    word: "scales",
+    clues: ["weight", "measure", "fish", "balance", "skin"],
+  },
+  1846: {
+    word: "soldiers",
+    clues: ["army", "military", "war", "troops", "fighters"],
+  },
+  1847: {
+    word: "parade",
+    clues: ["march", "celebration", "festival", "display", "event"],
+  },
+  1848: {
+    word: "month",
+    clues: ["calendar", "time", "period", "days", "year"],
+  },
+  1849: {
+    word: "invest",
+    clues: ["money", "finance", "shares", "profit", "business"],
+  },
+  1850: {
+    word: "shares",
+    clues: ["stock", "investment", "ownership", "divide", "equity"],
+  },
+  1851: {
+    word: "fresh",
+    clues: ["new", "clean", "recent", "pure", "cool"],
+  },
+  1852: {
+    word: "modern",
+    clues: ["current", "recent", "new", "advanced", "contemporary"],
+  },
+  1853: {
+    word: "recent",
+    clues: ["new", "modern", "latest", "current", "fresh"],
+  },
+  1854: {
+    word: "straight",
+    clues: ["direct", "line", "even", "clear", "unbent"],
+  },
+  1855: {
+    word: "queue",
+    clues: ["line", "wait", "order", "sequence", "row"],
+  },
+  1856: {
+    word: "fishing",
+    clues: ["sport", "water", "catch", "fish", "rod"],
+  },
+  1857: {
+    word: "aggression",
+    clues: ["anger", "attack", "force", "violence", "hostility"],
+  },
+  1858: {
+    word: "rings",
+    clues: ["circle", "jewelry", "sound", "orbit", "round"],
+  },
+  1859: {
+    word: "jupiter",
+    clues: ["planet", "gas giant", "space", "solar system", "orbit"],
+  },
+  1860: {
+    word: "lawn",
+    clues: ["grass", "yard", "garden", "green", "outdoor"],
+  },
+  1861: {
+    word: "clean",
+    clues: ["tidy", "wash", "pure", "fresh", "neat"],
+  },
+  1862: {
+    word: "highrise",
+    clues: ["building", "tall", "urban", "apartment", "structure"],
+  },
+  1863: {
+    word: "casino",
+    clues: ["gambling", "money", "games", "betting", "entertainment"],
+  },
+  1864: {
+    word: "number",
+    clues: ["count", "math", "digit", "figure", "quantity"],
+  },
+  1865: {
+    word: "betting",
+    clues: ["gambling", "money", "risk", "wager", "chance"],
+  },
+  1866: {
+    word: "portable",
+    clues: ["mobile", "lightweight", "moveable", "compact", "easy"],
+  },
+  1867: {
+    word: "app",
+    clues: ["software", "mobile", "program", "tool", "application"],
+  },
+  1868: {
+    word: "angle",
+    clues: ["corner", "degree", "geometry", "viewpoint", "shape"],
+  },
+  1869: {
+    word: "academic",
+    clues: ["education", "school", "study", "learning", "scholar"],
+  },
+  1870: {
+    word: "level",
+    clues: ["height", "degree", "rank", "flat", "stage"],
+  },
+  1871: {
+    word: "unit",
+    clues: ["measure", "group", "single", "part", "section"],
+  },
+  1872: {
+    word: "frozen",
+    clues: ["cold", "ice", "solid", "preserve", "chill"],
+  },
+  1873: {
+    word: "envy",
+    clues: ["jealousy", "desire", "want", "resent", "wish"],
+  },
+  1874: {
+    word: "emerald",
+    clues: ["green", "gem", "precious", "stone", "jewel"],
+  },
+  1875: {
+    word: "funeral",
+    clues: ["death", "ceremony", "mourning", "service", "farewell"],
+  },
+  1876: {
+    word: "aftermath",
+    clues: ["result", "consequence", "outcome", "impact", "later"],
+  },
+  1877: {
+    word: "vigil",
+    clues: ["watch", "night", "mourning", "guard", "ceremony"],
+  },
+  1878: {
+    word: "sharp",
+    clues: ["pointed", "keen", "cutting", "edge", "clear"],
+  },
+  1879: {
+    word: "sewing",
+    clues: ["needle", "thread", "fabric", "stitch", "craft"],
+  },
+  1880: {
+    word: "injection",
+    clues: ["needle", "medicine", "shot", "fluid", "treatment"],
+  },
+  1881: {
+    word: "thin",
+    clues: ["slim", "narrow", "light", "skinny", "delicate"],
+  },
+  1882: {
+    word: "clothing",
+    clues: ["garment", "wear", "fabric", "outfit", "apparel"],
+  },
+  1883: {
+    word: "woman",
+    clues: ["female", "lady", "adult", "girl", "gender"],
+  },
+  1884: {
+    word: "formal",
+    clues: ["official", "dressy", "ceremony", "proper", "event"],
+  },
+  1885: {
+    word: "gown",
+    clues: ["dress", "formal", "clothing", "long", "wear"],
+  },
+  1886: {
+    word: "hospital",
+    clues: ["medical", "treatment", "doctor", "care", "facility"],
+  },
+  1887: {
+    word: "physician",
+    clues: ["doctor", "medical", "care", "treatment", "health"],
+  },
+  1888: {
+    word: "small",
+    clues: ["tiny", "little", "compact", "minor", "short"],
+  },
+  1889: {
+    word: "beard",
+    clues: ["hair", "face", "chin", "style", "growth"],
+  },
+  1890: {
+    word: "fantasy",
+    clues: ["dream", "imagination", "fiction", "magic", "story"],
+  },
+  1891: {
+    word: "spread",
+    clues: ["expand", "scatter", "cover", "distribute", "range"],
+  },
+  1892: {
+    word: "toast",
+    clues: ["bread", "warm", "breakfast", "crisp", "food"],
+  },
+  1893: {
+    word: "preserve",
+    clues: ["protect", "save", "maintain", "keep", "store"],
+  },
+  1894: {
+    word: "priest",
+    clues: ["religion", "church", "faith", "minister", "holy"],
+  },
+  1895: {
+    word: "worship",
+    clues: ["praise", "religion", "faith", "devotion", "honor"],
+  },
+  1896: {
+    word: "blanket",
+    clues: ["cover", "warm", "bed", "fabric", "layer"],
+  },
+  1897: {
+    word: "layer",
+    clues: ["sheet", "level", "coat", "stratum", "cover"],
+  },
+  1898: {
+    word: "pencil",
+    clues: ["write", "draw", "eraser", "lead", "tool"],
+  },
+  1899: {
+    word: "direct",
+    clues: ["straight", "guide", "lead", "control", "clear"],
+  },
+  1900: {
+    word: "heavy",
+    clues: ["weight", "large", "dense", "burden", "strong"],
+  },
+  1901: {
+    word: "alter",
+    clues: ["change", "modify", "adjust", "transform", "revise"],
+  },
+  1902: {
+    word: "transform",
+    clues: ["change", "convert", "alter", "shift", "modify"],
+  },
+  1903: {
+    word: "drum",
+    clues: ["instrument", "music", "beat", "percussion", "sound"],
+  },
+  1904: {
+    word: "pulse",
+    clues: ["beat", "heart", "rhythm", "wave", "signal"],
+  },
+  1905: {
+    word: "shine",
+    clues: ["bright", "light", "glow", "sparkle", "radiate"],
+  },
+  1906: {
+    word: "beam",
+    clues: ["light", "ray", "structure", "smile", "support"],
+  },
+  1907: {
+    word: "buckle",
+    clues: ["fasten", "strap", "bend", "secure", "collapse"],
+  },
+  1908: {
+    word: "around",
+    clues: ["circle", "near", "surround", "about", "close"],
+  },
+  1909: {
+    word: "fasten",
+    clues: ["secure", "attach", "lock", "tie", "buckle"],
+  },
+  1910: {
+    word: "hat",
+    clues: ["headwear", "cap", "fashion", "cover", "accessory"],
+  },
+  1911: {
+    word: "sour",
+    clues: ["taste", "acidic", "bitter", "sharp", "citrus"],
+  },
+  1912: {
+    word: "drink",
+    clues: ["beverage", "liquid", "consume", "sip", "refresh"],
+  },
+  1913: {
+    word: "citrus",
+    clues: ["fruit", "orange", "lemon", "acidic", "lime"],
+  },
+  1914: {
+    word: "structure",
+    clues: ["building", "framework", "design", "form", "architecture"],
+  },
+  1915: {
+    word: "burn",
+    clues: ["fire", "flame", "heat", "damage", "scorch"],
+  },
+  1916: {
+    word: "flame",
+    clues: ["fire", "burn", "heat", "light", "spark"],
+  },
+  1917: {
+    word: "finger",
+    clues: ["hand", "digit", "touch", "point", "appendage"],
+  },
+  1918: {
+    word: "jewelry",
+    clues: ["accessory", "gold", "silver", "gem", "ornament"],
+  },
+  1919: {
+    word: "wedding",
+    clues: ["marriage", "ceremony", "union", "celebration", "event"],
+  },
+  1920: {
+    word: "pump",
+    clues: ["machine", "fluid", "air", "gas", "move"],
+  },
+  1921: {
+    word: "emotion",
+    clues: ["feeling", "mood", "reaction", "passion", "expression"],
+  },
+  1922: {
+    word: "trumpet",
+    clues: ["instrument", "music", "brass", "sound", "horn"],
+  },
+  1923: {
+    word: "jump",
+    clues: ["leap", "bounce", "spring", "hop", "move"],
+  },
+  1924: {
+    word: "coil",
+    clues: ["spring", "loop", "twist", "wire", "roll"],
+  },
+  1925: {
+    word: "bounce",
+    clues: ["jump", "spring", "rebound", "move", "leap"],
+  },
+  1926: {
+    word: "furniture",
+    clues: ["table", "chair", "sofa", "wood", "home"],
+  },
+  1927: {
+    word: "wood",
+    clues: ["tree", "material", "forest", "timber", "natural"],
+  },
+  1928: {
+    word: "large",
+    clues: ["big", "huge", "size", "massive", "extensive"],
+  },
+  1929: {
+    word: "mammal",
+    clues: ["animal", "warm-blooded", "fur", "live birth", "species"],
+  },
+  1930: {
+    word: "blubber",
+    clues: ["fat", "whale", "seal", "insulation", "marine"],
+  },
+  1931: {
+    word: "flipper",
+    clues: ["swim", "marine", "seal", "whale", "appendage"],
+  },
+  1932: {
+    word: "stamp",
+    clues: ["postage", "mail", "mark", "seal", "press"],
+  },
+  1933: {
+    word: "cheese",
+    clues: ["dairy", "food", "milk", "slice", "yellow"],
+  },
+  1934: {
+    word: "lunar",
+    clues: ["moon", "space", "orbit", "eclipse", "celestial"],
+  },
+  1935: {
+    word: "fall",
+    clues: ["autumn", "drop", "season", "decline", "tumble"],
+  },
+  1936: {
+    word: "pie",
+    clues: ["dessert", "bake", "fruit", "crust", "sweet"],
+  },
+  1937: {
+    word: "carve",
+    clues: ["cut", "sculpt", "shape", "engrave", "design"],
+  },
+  1938: {
+    word: "vegetable",
+    clues: ["food", "plant", "healthy", "green", "garden"],
+  },
+  1939: {
+    word: "vacation",
+    clues: ["holiday", "travel", "break", "trip", "relax"],
+  },
+  1940: {
+    word: "stumble",
+    clues: ["trip", "fall", "error", "misstep", "clumsy"],
+  },
+  1941: {
+    word: "winter",
+    clues: ["cold", "season", "snow", "freeze", "chill"],
+  },
+  1942: {
+    word: "woods",
+    clues: ["forest", "trees", "nature", "wild", "outdoors"],
+  },
+  1943: {
+    word: "wild",
+    clues: ["untamed", "nature", "animal", "crazy", "free"],
+  },
+  1944: {
+    word: "funds",
+    clues: ["money", "finance", "resources", "capital", "budget"],
+  },
+  1945: {
+    word: "hit",
+    clues: ["strike", "impact", "success", "blow", "target"],
+  },
+  1946: {
+    word: "baseball",
+    clues: ["sport", "game", "bat", "ball", "team"],
+  },
+  1947: {
+    word: "labor",
+    clues: ["work", "effort", "job", "task", "employment"],
+  },
+  1948: {
+    word: "attack",
+    clues: ["assault", "strike", "aggression", "fight", "offense"],
+  },
+  1949: {
+    word: "bowl",
+    clues: ["dish", "round", "container", "food", "serve"],
+  },
+  1950: {
+    word: "penny",
+    clues: ["coin", "money", "currency", "small", "copper"],
+  },
+  1951: {
+    word: "element",
+    clues: ["chemical", "part", "component", "atom", "substance"],
+  },
+  1952: {
+    word: "ride",
+    clues: ["travel", "vehicle", "horse", "move", "journey"],
+  },
+  1953: {
+    word: "equestrian",
+    clues: ["horse", "riding", "sport", "stable", "competition"],
+  },
+  1954: {
+    word: "hockey",
+    clues: ["sport", "ice", "stick", "team", "goal"],
+  },
+  1955: {
+    word: "audience",
+    clues: ["crowd", "spectators", "viewers", "event", "group"],
+  },
+  1956: {
+    word: "performance",
+    clues: ["show", "act", "event", "stage", "skill"],
+  },
+  1957: {
+    word: "candy",
+    clues: ["sweet", "sugar", "chocolate", "treat", "dessert"],
+  },
+  1958: {
+    word: "dessert",
+    clues: ["sweet", "cake", "ice cream", "treat", "candy"],
+  },
+  1959: {
+    word: "cocoa",
+    clues: ["chocolate", "drink", "hot", "bean", "sweet"],
+  },
+  1960: {
+    word: "aircraft",
+    clues: ["plane", "fly", "jet", "aviation", "transport"],
+  },
+  1961: {
+    word: "writer",
+    clues: ["author", "novelist", "pen", "story", "creator"],
+  },
+  1962: {
+    word: "playwright",
+    clues: ["drama", "writer", "theater", "script", "author"],
+  },
+  1963: {
+    word: "romeo",
+    clues: ["lover", "juliet", "shakespeare", "romance", "tragic"],
+  },
+  1964: {
+    word: "bard",
+    clues: ["poet", "shakespeare", "writer", "song", "verse"],
+  },
+  1965: {
+    word: "automobile",
+    clues: ["car", "vehicle", "drive", "transport", "engine"],
+  },
+  1966: {
+    word: "shape",
+    clues: ["form", "figure", "outline", "geometry", "silhouette"],
+  },
+  1967: {
+    word: "silhouette",
+    clues: ["shadow", "outline", "shape", "figure", "profile"],
+  },
+  1968: {
+    word: "covering",
+    clues: ["layer", "blanket", "shield", "wrap", "protection"],
+  },
+  1969: {
+    word: "alphabet",
+    clues: ["letters", "language", "abc", "writing", "characters"],
+  },
+  1970: {
+    word: "mail",
+    clues: ["letter", "post", "email", "message", "delivery"],
+  },
+  1971: {
+    word: "write",
+    clues: ["pen", "author", "compose", "text", "message"],
+  },
+  1972: {
+    word: "message",
+    clues: ["text", "communication", "email", "note", "letter"],
+  },
+  1973: {
+    word: "character",
+    clues: ["person", "role", "letter", "symbol", "trait"],
+  },
+  1974: {
+    word: "funny",
+    clues: ["humorous", "comedy", "laugh", "joke", "strips"],
+  },
+  1975: {
+    word: "strips",
+    clues: ["comic", "lines", "funny", "pieces", "humorous"],
+  },
+  1976: {
+    word: "humorous",
+    clues: ["funny", "comedy", "joke", "laugh", "strips"],
+  },
+  1977: {
+    word: "rich",
+    clues: ["wealthy", "affluent", "money", "dollars", "luxury"],
+  },
+  1978: {
+    word: "wealth",
+    clues: ["money", "rich", "affluent", "fortune", "dollars"],
+  },
+  1979: {
+    word: "dollars",
+    clues: ["money", "currency", "wealth", "rich", "affluent"],
+  },
+  1980: {
+    word: "affluent",
+    clues: ["wealthy", "rich", "money", "luxury", "dollars"],
+  },
+  1981: {
+    word: "obstacle",
+    clues: ["barrier", "challenge", "block", "difficulty", "hindrance"],
+  },
+  1982: {
+    word: "dentist",
+    clues: ["teeth", "doctor", "oral", "cavity", "toothpaste"],
+  },
+  1983: {
+    word: "twist",
+    clues: ["turn", "bend", "coil", "curve", "bore"],
+  },
+  1984: {
+    word: "bore",
+    clues: ["drill", "hole", "twist", "hollow", "cylinder"],
+  },
+  1985: {
+    word: "swim",
+    clues: ["water", "pool", "dive", "stroke", "hollow"],
+  },
+  1986: {
+    word: "hollow",
+    clues: ["empty", "hole", "cavity", "bore", "swim"],
+  },
+  1987: {
+    word: "subway",
+    clues: ["train", "underground", "transport", "metro", "tube"],
+  },
+  1988: {
+    word: "toothpaste",
+    clues: ["teeth", "dentist", "oral", "brush", "tube"],
+  },
+  1989: {
+    word: "cylinder",
+    clues: ["tube", "shape", "round", "bore", "hollow"],
+  },
+  1990: {
+    word: "elegance",
+    clues: ["grace", "style", "poise", "beauty", "refined"],
+  },
+  1991: {
+    word: "poise",
+    clues: ["balance", "grace", "elegance", "composure", "style"],
+  },
+  1992: {
+    word: "thanks",
+    clues: ["gratitude", "appreciation", "favor", "kindness", "acknowledge"],
+  },
+  1993: {
+    word: "favor",
+    clues: ["kindness", "thanks", "help", "support", "gift"],
+  },
+  1994: {
+    word: "golf",
+    clues: ["sport", "club", "ball", "course", "score"],
+  },
+  1995: {
+    word: "pair",
+    clues: ["couple", "two", "match", "set", "duo"],
+  },
+  1996: {
+    word: "pizza",
+    clues: ["food", "cheese", "crust", "slice", "mediterranean"],
+  },
+  1997: {
+    word: "mediterranean",
+    clues: ["sea", "region", "pizza", "culture", "coast"],
+  },
+  1998: {
+    word: "tip",
+    clues: ["end", "point", "advice", "score", "dot"],
+  },
+  1999: {
+    word: "score",
+    clues: ["points", "game", "golf", "win", "tip"],
+  },
+  2000: {
+    word: "dot",
+    clues: ["point", "spot", "location", "mark", "score"],
+  },
+  2001: {
+    word: "location",
+    clues: ["place", "spot", "map", "dot", "area"],
+  },
+  2002: {
+    word: "white",
+    clues: ["color", "fabric", "light", "pure", "snow"],
+  },
+  2003: {
+    word: "fabric",
+    clues: ["cloth", "material", "textile", "white", "weave"],
+  },
+  2004: {
+    word: "calendar",
+    clues: ["date", "schedule", "time", "today", "year"],
+  },
+  2005: {
+    word: "romance",
+    clues: ["love", "paris", "relationship", "emotion", "today"],
+  },
+  2006: {
+    word: "paris",
+    clues: ["city", "romance", "france", "baguette", "eiffel"],
+  },
+  2007: {
+    word: "baguette",
+    clues: ["bread", "paris", "french", "food", "loaf"],
+  },
+  2008: {
+    word: "today",
+    clues: ["present", "calendar", "now", "time", "moment"],
+  },
+  2009: {
+    word: "extinct",
+    clues: ["gone", "ancient", "species", "woolly", "elephant"],
+  },
+  2010: {
+    word: "elephant",
+    clues: ["animal", "tusk", "large", "extinct", "woolly"],
+  },
+  2011: {
+    word: "tusk",
+    clues: ["elephant", "ivory", "horn", "ancient", "extinct"],
+  },
+  2012: {
+    word: "woolly",
+    clues: ["furry", "ancient", "extinct", "elephant", "mammoth"],
+  },
+  2013: {
+    word: "ancient",
+    clues: ["old", "historic", "extinct", "woolly", "past"],
+  },
+  2014: {
+    word: "brain",
+    clues: ["mind", "leader", "intelligence", "thought", "organ"],
+  },
+  2015: {
+    word: "leader",
+    clues: ["head", "brain", "guide", "chief", "authority"],
+  },
+  2016: {
+    word: "skull",
+    clues: ["bone", "head", "brain", "structure", "skeleton"],
+  },
+  2017: {
+    word: "brook",
+    clues: ["stream", "water", "creek", "small", "flow"],
+  },
+  2018: {
+    word: "creek",
+    clues: ["stream", "brook", "water", "small", "flow"],
+  },
+  2019: {
+    word: "creature",
+    clues: ["animal", "being", "living", "organism", "greek"],
+  },
+  2020: {
+    word: "greek",
+    clues: ["ancient", "language", "culture", "mythology", "curl"],
+  },
+  2021: {
+    word: "curl",
+    clues: ["twist", "bend", "coil", "wave", "shape"],
+  },
+  2022: {
+    word: "motor",
+    clues: ["engine", "machine", "drive", "vehicle", "magnify"],
+  },
+  2023: {
+    word: "magnify",
+    clues: ["enlarge", "zoom", "instrument", "glass", "focus"],
+  },
+  2024: {
+    word: "instrument",
+    clues: ["tool", "device", "music", "magnify", "measure"],
+  },
+  2025: {
+    word: "coffee",
+    clues: ["drink", "cup", "caffeine", "hot", "handle"],
+  },
+  2026: {
+    word: "handle",
+    clues: ["grip", "hold", "cup", "control", "ceramic"],
+  },
+  2027: {
+    word: "cup",
+    clues: ["drink", "container", "handle", "ceramic", "coffee"],
+  },
+  2028: {
+    word: "ceramic",
+    clues: ["pottery", "material", "cup", "handle", "clay"],
+  },
+  2029: {
+    word: "desert",
+    clues: ["sand", "dry", "sting", "hot", "western"],
+  },
+  2030: {
+    word: "sting",
+    clues: ["pain", "arachnid", "venom", "sharp", "desert"],
+  },
+  2031: {
+    word: "arachnid",
+    clues: ["spider", "sting", "venom", "legs", "creature"],
+  },
+  2032: {
+    word: "venom",
+    clues: ["poison", "sting", "arachnid", "danger", "toxic"],
+  },
+  2033: {
+    word: "western",
+    clues: ["cowboy", "desert", "region", "movie", "culture"],
+  },
+  2034: {
+    word: "lift",
+    clues: ["raise", "elevate", "pouch", "carry", "marsupial"],
+  },
+  2035: {
+    word: "pouch",
+    clues: ["bag", "container", "marsupial", "lift", "kangaroo"],
+  },
+  2036: {
+    word: "marsupial",
+    clues: ["kangaroo", "pouch", "animal", "carry", "barrier"],
+  },
+  2037: {
+    word: "barrier",
+    clues: ["obstacle", "block", "wall", "liquid", "container"],
+  },
+  2038: {
+    word: "liquid",
+    clues: ["fluid", "water", "container", "drink", "blade"],
+  },
+  2039: {
+    word: "container",
+    clues: ["box", "hold", "liquid", "pouch", "cup"],
+  },
+  2040: {
+    word: "blade",
+    clues: ["sharp", "knife", "rescue", "cut", "metal"],
+  },
+  2041: {
+    word: "rescue",
+    clues: ["save", "help", "blade", "danger", "neck"],
+  },
+  2042: {
+    word: "neck",
+    clues: ["throat", "head", "rescue", "tropical", "body"],
+  },
+  2043: {
+    word: "tropical",
+    clues: ["warm", "climate", "neck", "educate", "island"],
+  },
+  2044: {
+    word: "educate",
+    clues: ["teach", "learn", "instructor", "school", "knowledge"],
+  },
+  2045: {
+    word: "instructor",
+    clues: ["teacher", "educate", "guide", "school", "catch"],
+  },
+  2046: {
+    word: "catch",
+    clues: ["grab", "hold", "jesus", "throw", "intersect"],
+  },
+  2047: {
+    word: "jesus",
+    clues: ["christ", "faith", "catch", "religion", "cross"],
+  },
+  2048: {
+    word: "intersect",
+    clues: ["cross", "meet", "jewel", "lines", "geometry"],
+  },
+  2049: {
+    word: "jewel",
+    clues: ["gem", "precious", "sparkle", "hard", "stone"],
+  },
+  2050: {
+    word: "hard",
+    clues: ["solid", "tough", "jewel", "sparkle", "knot"],
+  },
+  2051: {
+    word: "sparkle",
+    clues: ["shine", "bright", "jewel", "precious", "light"],
+  },
+  2052: {
+    word: "precious",
+    clues: ["valuable", "jewel", "rare", "sparkle", "stone"],
+  },
+  2053: {
+    word: "knot",
+    clues: ["tie", "rope", "hard", "loop", "tennis"],
+  },
+  2054: {
+    word: "tennis",
+    clues: ["sport", "ball", "net", "knot", "basket"],
+  },
+  2055: {
+    word: "basket",
+    clues: ["container", "hold", "tennis", "royal", "woven"],
+  },
+  2056: {
+    word: "royal",
+    clues: ["king", "queen", "basket", "crown", "plastic"],
+  },
+  2057: {
+    word: "plastic",
+    clues: ["material", "synthetic", "royal", "container", "birthday"],
+  },
+  2058: {
+    word: "birthday",
+    clues: ["celebration", "cake", "party", "plastic", "credit"],
+  },
+  2059: {
+    word: "credit",
+    clues: ["money", "card", "birthday", "loan", "trust"],
+  },
+  2060: {
+    word: "jacket",
+    clues: ["coat", "clothing", "warm", "neighborhood", "zipper"],
+  },
+  2061: {
+    word: "neighborhood",
+    clues: ["area", "community", "jacket", "houses", "local"],
+  },
+  2062: {
+    word: "quack",
+    clues: ["duck", "sound", "avoid", "fake", "doctor"],
+  },
+  2063: {
+    word: "avoid",
+    clues: ["escape", "prevent", "quack", "danger", "elastic"],
+  },
+  2064: {
+    word: "elastic",
+    clues: ["stretch", "flexible", "bracelet", "rubber", "avoid"],
+  },
+  2065: {
+    word: "bracelet",
+    clues: ["jewelry", "wrist", "elastic", "metal", "gift"],
+  },
+  2066: {
+    word: "alarm",
+    clues: ["alert", "sound", "danger", "three", "clock"],
+  },
+  2067: {
+    word: "three",
+    clues: ["number", "sides", "triangle", "alarm", "geometry"],
+  },
+  2068: {
+    word: "sides",
+    clues: ["edges", "three", "geometry", "shape", "triangle"],
+  },
+  2069: {
+    word: "geometry",
+    clues: ["math", "shapes", "sides", "triangle", "lamp"],
+  },
+  2070: {
+    word: "lamp",
+    clues: ["light", "shade", "electric", "geometry", "desk"],
+  },
+  2071: {
+    word: "weight",
+    clues: ["mass", "heavy", "scale", "measure", "lift"],
+  },
+  2072: {
+    word: "photon",
+    clues: ["light", "particle", "energy", "physics", "beam"],
+  },
+  2073: {
+    word: "pillar",
+    clues: ["column", "support", "structure", "building", "empty"],
+  },
+  2074: {
+    word: "empty",
+    clues: ["void", "hollow", "nothing", "space", "dig"],
+  },
+  2075: {
+    word: "dig",
+    clues: ["excavate", "hole", "shovel", "opening", "ground"],
+  },
+  2076: {
+    word: "opening",
+    clues: ["gap", "hole", "start", "stage", "door"],
+  },
+  2077: {
+    word: "stage",
+    clues: ["platform", "actors", "performance", "theater", "example"],
+  },
+  2078: {
+    word: "actors",
+    clues: ["performers", "stage", "movie", "example", "replica"],
+  },
+  2079: {
+    word: "example",
+    clues: ["model", "replica", "illustration", "actors", "thorn"],
+  },
+  2080: {
+    word: "replica",
+    clues: ["copy", "example", "model", "thorn", "smell"],
+  },
+  2081: {
+    word: "thorn",
+    clues: ["sharp", "plant", "replica", "smell", "romantic"],
+  },
+  2082: {
+    word: "smell",
+    clues: ["odor", "nose", "thorn", "romantic", "observe"],
+  },
+  2083: {
+    word: "romantic",
+    clues: ["love", "thorn", "smell", "shoulder", "gesture"],
+  },
+  2084: {
+    word: "shoulder",
+    clues: ["body", "arm", "romantic", "elbow", "joint"],
+  },
+  2085: {
+    word: "elbow",
+    clues: ["joint", "arm", "shoulder", "wrist", "bend"],
+  },
+  2086: {
+    word: "wrist",
+    clues: ["joint", "hand", "elbow", "bracelet", "observe"],
+  },
+  2087: {
+    word: "observe",
+    clues: ["watch", "see", "biology", "wrist", "study"],
+  },
+  2088: {
+    word: "biology",
+    clues: ["science", "life", "observe", "study", "prison"],
+  },
+  2089: {
+    word: "prison",
+    clues: ["jail", "cell", "biology", "cut", "criminal"],
+  },
+  2090: {
+    word: "cut",
+    clues: ["slice", "blade", "prison", "harm", "kitchen"],
+  },
+  2091: {
+    word: "blade",
+    clues: ["sharp", "cut", "knife", "kitchen", "metal"],
+  },
+  2092: {
+    word: "kitchen",
+    clues: ["cook", "food", "blade", "tissue", "appliance"],
+  },
+  2093: {
+    word: "tissue",
+    clues: ["paper", "soft", "kitchen", "yarn", "biology"],
+  },
+  2094: {
+    word: "yarn",
+    clues: ["thread", "fabric", "tissue", "cord", "knit"],
+  },
+  2095: {
+    word: "cord",
+    clues: ["rope", "yarn", "electric", "toxic", "connect"],
+  },
+  2096: {
+    word: "toxic",
+    clues: ["poison", "harmful", "cord", "deadly", "danger"],
+  },
+  2097: {
+    word: "deadly",
+    clues: ["fatal", "toxic", "harm", "snake", "danger"],
+  },
+  2098: {
+    word: "harm",
+    clues: ["injury", "danger", "deadly", "snake", "cut"],
+  },
+  2099: {
+    word: "snake",
+    clues: ["reptile", "venom", "harm", "egypt", "slither"],
+  },
+  2100: {
+    word: "egypt",
+    clues: ["country", "pyramids", "snake", "stone", "ancient"],
+  },
+  2101: {
+    word: "stone",
+    clues: ["rock", "egypt", "hard", "dive", "solid"],
+  },
+  2102: {
+    word: "dive",
+    clues: ["jump", "water", "stone", "tank", "deep"],
+  },
+  2103: {
+    word: "tank",
+    clues: ["container", "dive", "gear", "water", "military"],
+  },
+  2104: {
+    word: "gear",
+    clues: ["equipment", "tank", "deep", "underwater", "tools"],
+  },
+  2105: {
+    word: "deep",
+    clues: ["profound", "underwater", "gear", "death", "ocean"],
+  },
+  2106: {
+    word: "underwater",
+    clues: ["ocean", "deep", "dive", "gear", "tank"],
+  },
+  2107: {
+    word: "death",
+    clues: ["end", "casket", "underwater", "mortician", "life"],
+  },
+  2108: {
+    word: "casket",
+    clues: ["coffin", "death", "mortician", "wood", "burial"],
+  },
+  2109: {
+    word: "mortician",
+    clues: ["funeral", "death", "casket", "empire", "profession"],
+  },
+  2110: {
+    word: "empire",
+    clues: ["kingdom", "rule", "mortician", "juice", "dynasty"],
+  },
+  2111: {
+    word: "juice",
+    clues: ["drink", "fruit", "empire", "illegal", "liquid"],
+  },
+  2112: {
+    word: "illegal",
+    clues: ["unlawful", "secret", "juice", "goods", "criminal"],
+  },
+  2113: {
+    word: "secret",
+    clues: ["hidden", "illegal", "goods", "eye", "mystery"],
+  },
+  2114: {
+    word: "goods",
+    clues: ["items", "trade", "illegal", "secret", "criminal"],
+  },
+  2115: {
+    word: "criminal",
+    clues: ["lawbreaker", "prison", "illegal", "goods", "eye"],
+  },
+  2116: {
+    word: "eye",
+    clues: ["vision", "see", "criminal", "magic", "organ"],
+  },
+  2117: {
+    word: "magic",
+    clues: ["illusion", "eye", "broom", "halloween", "spell"],
+  },
+  2118: {
+    word: "broom",
+    clues: ["clean", "magic", "halloween", "witch", "stick"],
+  },
+  2119: {
+    word: "halloween",
+    clues: ["holiday", "broom", "magic", "evil", "costume"],
+  },
+  2120: {
+    word: "evil",
+    clues: ["wicked", "halloween", "spell", "harm", "bad"],
+  },
+  2121: {
+    word: "spell",
+    clues: ["magic", "words", "evil", "suck", "witch"],
+  },
+  2122: {
+    word: "suck",
+    clues: ["vacuum", "spell", "appliance", "drink", "pull"],
+  },
+  2123: {
+    word: "appliance",
+    clues: ["device", "kitchen", "suck", "electric", "tool"],
+  },
+  2124: {
+    word: "army",
+    clues: ["military", "uniform", "force", "soldiers", "waist"],
+  },
+  2125: {
+    word: "uniform",
+    clues: ["clothing", "army", "military", "waist", "standard"],
+  },
+  2126: {
+    word: "military",
+    clues: ["army", "uniform", "force", "waist", "war"],
+  },
+  2127: {
+    word: "waist",
+    clues: ["body", "trousers", "uniform", "belt", "middle"],
+  },
+  2128: {
+    word: "trousers",
+    clues: ["pants", "waist", "clothing", "belt", "legs"],
+  },
+  2129: {
+    word: "smoke",
+    clues: ["fire", "plumbing", "air", "danger", "cloud"],
+  },
+  2130: {
+    word: "plumbing",
+    clues: ["pipes", "water", "smoke", "repair", "system"],
+  },
+  2131: {
+    word: "tobacco",
+    clues: ["smoke", "material", "plant", "cigarette", "leaf"],
+  },
+  2132: {
+    word: "material",
+    clues: ["substance", "tobacco", "fabric", "flake", "skin"],
+  },
+  2133: {
+    word: "flake",
+    clues: ["small", "piece", "material", "skin", "snow"],
+  },
+  2134: {
+    word: "skin",
+    clues: ["body", "flake", "material", "asia", "surface"],
+  },
+  2135: {
+    word: "asia",
+    clues: ["continent", "skin", "forbidden", "culture", "land"],
+  },
+  2136: {
+    word: "forbidden",
+    clues: ["prohibited", "asia", "carry", "restricted", "ban"],
+  },
+  2137: {
+    word: "carry",
+    clues: ["transport", "forbidden", "olympics", "hold", "move"],
+  },
+  2138: {
+    word: "olympics",
+    clues: ["games", "carry", "holes", "sports", "competition"],
+  },
+  2139: {
+    word: "holes",
+    clues: ["gaps", "olympics", "chain", "empty", "space"],
+  },
+  2140: {
+    word: "chain",
+    clues: ["links", "holes", "join", "metal", "connect"],
+  },
+  2141: {
+    word: "join",
+    clues: ["connect", "chain", "package", "combine", "group"],
+  },
+  2142: {
+    word: "package",
+    clues: ["box", "join", "gift", "wrap", "delivery"],
+  },
+  2143: {
+    word: "gift",
+    clues: ["present", "package", "cardboard", "give", "surprise"],
+  },
+  2144: {
+    word: "cardboard",
+    clues: ["material", "gift", "box", "keys", "paper"],
+  },
+  2145: {
+    word: "keys",
+    clues: ["unlock", "cardboard", "safety", "metal", "door"],
+  },
+  2146: {
+    word: "safety",
+    clues: ["protection", "keys", "far", "secure", "danger"],
+  },
+  2147: {
+    word: "far",
+    clues: ["distance", "safety", "track", "remote", "away"],
+  },
+  2148: {
+    word: "track",
+    clues: ["path", "far", "railroad", "follow", "trace"],
+  },
+  2149: {
+    word: "railroad",
+    clues: ["train", "track", "locomotive", "transport", "rails"],
+  },
+  2150: {
+    word: "locomotive",
+    clues: ["engine", "railroad", "curry", "train", "power"],
+  },
+  2151: {
+    word: "curry",
+    clues: ["spice", "locomotive", "under", "food", "asia"],
+  },
+  2152: {
+    word: "under",
+    clues: ["below", "curry", "sandwich", "submarine", "beneath"],
+  },
+  2153: {
+    word: "sandwich",
+    clues: ["food", "under", "below", "bread", "meal"],
+  },
+  2154: {
+    word: "below",
+    clues: ["under", "sandwich", "submarine", "beneath", "down"],
+  },
+  2155: {
+    word: "submarine",
+    clues: ["underwater", "below", "price", "ship", "ocean"],
+  },
+  2156: {
+    word: "price",
+    clues: ["cost", "submarine", "accuse", "value", "money"],
+  },
+  2157: {
+    word: "accuse",
+    clues: ["blame", "price", "load", "charge", "fault"],
+  },
+  2158: {
+    word: "load",
+    clues: ["carry", "accuse", "farm", "weight", "cargo"],
+  },
+  2159: {
+    word: "farm",
+    clues: ["land", "load", "gallop", "crops", "animals"],
+  },
+  2160: {
+    word: "gallop",
+    clues: ["run", "farm", "hammer", "horse", "speed"],
+  },
+  2161: {
+    word: "hammer",
+    clues: ["tool", "gallop", "polish", "nail", "metal"],
+  },
+  2162: {
+    word: "polish",
+    clues: ["shine", "hammer", "fastener", "clean", "surface"],
+  },
+  2163: {
+    word: "fastener",
+    clues: ["clip", "polish", "pet", "attach", "secure"],
+  },
+  2164: {
+    word: "pet",
+    clues: ["animal", "fastener", "loyal", "canine", "companion"],
+  },
+  2165: {
+    word: "loyal",
+    clues: ["faithful", "pet", "canine", "trust", "dedicated"],
+  },
+  2166: {
+    word: "canine",
+    clues: ["dog", "loyal", "pet", "teeth", "animal"],
+  },
+  2167: {
+    word: "treasure",
+    clues: ["gold", "ribs", "valuable", "hidden", "chest"],
+  },
+  2168: {
+    word: "ribs",
+    clues: ["bones", "treasure", "plains", "chest", "body"],
+  },
+  2169: {
+    word: "plains",
+    clues: ["land", "ribs", "bison", "flat", "grass"],
+  },
+  2170: {
+    word: "bison",
+    clues: ["animal", "plains", "hooves", "wild", "herd"],
+  },
+  2171: {
+    word: "hooves",
+    clues: ["feet", "bison", "rice", "animal", "horse"],
+  },
+  2172: {
+    word: "rice",
+    clues: ["grain", "hooves", "curve", "food", "asia"],
+  },
+  2173: {
+    word: "curve",
+    clues: ["bend", "rice", "harbor", "shape", "arc"],
+  },
+  2174: {
+    word: "harbor",
+    clues: ["port", "curve", "wine", "boats", "water"],
+  },
+  2175: {
+    word: "wine",
+    clues: ["drink", "harbor", "left", "grape", "alcohol"],
+  },
+  2176: {
+    word: "left",
+    clues: ["direction", "wine", "lake", "opposite", "side"],
+  },
+  2177: {
+    word: "lake",
+    clues: ["water", "left", "monster", "scotland", "body"],
+  },
+  2178: {
+    word: "monster",
+    clues: ["creature", "lake", "scotland", "break", "fear"],
+  },
+  2179: {
+    word: "scotland",
+    clues: ["country", "monster", "lake", "break", "land"],
+  },
+  2180: {
+    word: "break",
+    clues: ["pause", "scotland", "password", "split", "stop"],
+  },
+  2181: {
+    word: "password",
+    clues: ["security", "break", "volleyball", "code", "access"],
+  },
+  2182: {
+    word: "volleyball",
+    clues: ["sport", "password", "artificial", "ball", "team"],
+  },
+  2183: {
+    word: "artificial",
+    clues: ["fake", "volleyball", "automation", "man-made", "synthetic"],
+  },
+  2184: {
+    word: "automation",
+    clues: ["machine", "artificial", "sticky", "process", "control"],
+  },
+  2185: {
+    word: "sticky",
+    clues: ["adhesive", "automation", "glue", "tacky", "surface"],
+  },
+  2186: {
+    word: "glue",
+    clues: ["adhesive", "sticky", "insect", "bond", "paste"],
+  },
+  2187: {
+    word: "adhesive",
+    clues: ["sticky", "glue", "insect", "attach", "bond"],
+  },
+  2188: {
+    word: "insect",
+    clues: ["bug", "adhesive", "annoying", "small", "fly"],
+  },
+  2189: {
+    word: "annoying",
+    clues: ["irritating", "insect", "virus", "bother", "noise"],
+  },
+  2190: {
+    word: "virus",
+    clues: ["infection", "annoying", "insect", "harmful", "computer"],
+  },
+  2191: {
+    word: "valuable",
+    clues: ["treasure", "important", "worth", "precious", "rare"],
+  },
+  2192: {
+    word: "accident",
+    clues: ["unexpected", "valuable", "kite", "crash", "mistake"],
+  },
+  2193: {
+    word: "kite",
+    clues: ["fly", "accident", "behind", "wind", "toy"],
+  },
+  2194: {
+    word: "behind",
+    clues: ["back", "kite", "wag", "rear", "follow"],
+  },
+  2195: {
+    word: "wag",
+    clues: ["tail", "behind", "flavor", "move", "dog"],
+  },
+  2196: {
+    word: "flavor",
+    clues: ["taste", "wag", "herb", "food", "spice"],
+  },
+  2197: {
+    word: "herb",
+    clues: ["plant", "flavor", "launch", "spice", "natural"],
+  },
+  2198: {
+    word: "launch",
+    clues: ["start", "herb", "target", "begin", "rocket"],
+  },
+  2199: {
+    word: "target",
+    clues: ["goal", "launch", "projectile", "aim", "focus"],
+  },
+  2200: {
+    word: "projectile",
+    clues: ["weapon", "target", "foreign", "bullet", "throw"],
+  },
+  2201: {
+    word: "foreign",
+    clues: ["diplomat", "projectile", "gun", "international", "alien"],
+  },
+  2202: {
+    word: "diplomat",
+    clues: ["foreign", "gun", "bullet", "ambassador", "negotiator"],
+  },
+  2203: {
+    word: "gun",
+    clues: ["weapon", "diplomat", "bullet", "firearm", "shoot"],
+  },
+  2204: {
+    word: "bullet",
+    clues: ["gun", "firearm", "expert", "projectile", "ammo"],
+  },
+  2205: {
+    word: "firearm",
+    clues: ["gun", "bullet", "expert", "weapon", "shoot"],
+  },
+  2206: {
+    word: "expert",
+    clues: ["skilled", "firearm", "record", "knowledge", "master"],
+  },
+  2207: {
+    word: "record",
+    clues: ["document", "expert", "journal", "history", "data"],
+  },
+  2208: {
+    word: "journal",
+    clues: ["record", "beer", "write", "diary", "notes"],
+  },
+  2209: {
+    word: "beer",
+    clues: ["drink", "journal", "illness", "alcohol", "bar"],
+  },
+  2210: {
+    word: "illness",
+    clues: ["sick", "beer", "infection", "disease", "health"],
+  },
+  2211: {
+    word: "infection",
+    clues: ["virus", "illness", "rest", "harmful", "bacteria"],
+  },
+  2212: {
+    word: "rest",
+    clues: ["sleep", "infection", "pillow", "relax", "break"],
+  },
+  2213: {
+    word: "pillow",
+    clues: ["rest", "mattress", "soft", "bed", "head"],
+  },
+  2214: {
+    word: "mattress",
+    clues: ["bed", "pillow", "lightning", "sleep", "soft"],
+  },
+  2215: {
+    word: "lightning",
+    clues: ["storm", "mattress", "run", "electric", "flash"],
+  },
+  2216: {
+    word: "run",
+    clues: ["move", "lightning", "screw", "fast", "race"],
+  },
+  2217: {
+    word: "screw",
+    clues: ["fastener", "run", "athens", "tool", "twist"],
+  },
+  2218: {
+    word: "athens",
+    clues: ["city", "screw", "floor", "greece", "ancient"],
+  },
+  2219: {
+    word: "floor",
+    clues: ["ground", "athens", "patio", "surface", "level"],
+  },
+  2220: {
+    word: "patio",
+    clues: ["outdoor", "floor", "balcony", "garden", "space"],
+  },
+  2221: {
+    word: "balcony",
+    clues: ["view", "patio", "behave", "outdoor", "terrace"],
+  },
+  2222: {
+    word: "behave",
+    clues: ["act", "balcony", "huge", "conduct", "manners"],
+  },
+  2223: {
+    word: "huge",
+    clues: ["big", "behave", "eyes", "large", "massive"],
+  },
+  2224: {
+    word: "eyes",
+    clues: ["see", "huge", "expression", "vision", "face"],
+  },
+  2225: {
+    word: "expression",
+    clues: ["emotion", "eyes", "robber", "face", "feeling"],
+  },
+  2226: {
+    word: "robber",
+    clues: ["thief", "expression", "sand", "steal", "crime"],
+  },
+  2227: {
+    word: "sand",
+    clues: ["beach", "robber", "shore", "grain", "desert"],
+  },
+  2228: {
+    word: "shore",
+    clues: ["coast", "sand", "ball", "water", "beach"],
+  },
+  2229: {
+    word: "ball",
+    clues: ["round", "shore", "boxing", "sports", "play"],
+  },
+  2230: {
+    word: "boxing",
+    clues: ["fight", "ball", "area", "sport", "ring"],
+  },
+  2231: {
+    word: "area",
+    clues: ["space", "boxing", "bike", "region", "place"],
+  },
+  2232: {
+    word: "bike",
+    clues: ["cycle", "area", "repeat", "ride", "wheels"],
+  },
+  2233: {
+    word: "repeat",
+    clues: ["again", "bike", "period", "cycle", "do"],
+  },
+  2234: {
+    word: "period",
+    clues: ["time", "repeat", "rotation", "duration", "interval"],
+  },
+  2235: {
+    word: "rotation",
+    clues: ["turn", "period", "italy", "spin", "cycle"],
+  },
+  2236: {
+    word: "italy",
+    clues: ["country", "rotation", "stay", "rome", "pizza"],
+  },
+  2237: {
+    word: "stay",
+    clues: ["remain", "italy", "room", "visit", "live"],
+  },
+  2238: {
+    word: "room",
+    clues: ["space", "stay", "guest", "lodging", "house"],
+  },
+  2239: {
+    word: "guest",
+    clues: ["visitor", "room", "lodging", "stay", "invite"],
+  },
+  2240: {
+    word: "lodging",
+    clues: ["accommodation", "guest", "room", "stay", "hotel"],
+  },
+  2241: {
+    word: "mark",
+    clues: ["sign", "ascend", "agent", "spot", "symbol"],
+  },
+  2242: {
+    word: "ascend",
+    clues: ["rise", "mark", "agent", "climb", "up"],
+  },
+  2243: {
+    word: "agent",
+    clues: ["spy", "ascend", "hidden", "inform", "representative"],
+  },
+  2244: {
+    word: "hidden",
+    clues: ["secret", "agent", "inform", "investigate", "concealed"],
+  },
+  2245: {
+    word: "inform",
+    clues: ["tell", "hidden", "investigate", "notify", "report"],
+  },
+  2246: {
+    word: "investigate",
+    clues: ["examine", "inform", "daughter", "search", "detective"],
+  },
+  2247: {
+    word: "daughter",
+    clues: ["child", "investigate", "steps", "girl", "family"],
+  },
+  2248: {
+    word: "steps",
+    clues: ["stairs", "daughter", "crunchy", "walk", "move"],
+  },
+  2249: {
+    word: "crunchy",
+    clues: ["crispy", "steps", "root", "texture", "food"],
+  },
+  2250: {
+    word: "root",
+    clues: ["plant", "crunchy", "condition", "base", "tree"],
+  },
+  2251: {
+    word: "condition",
+    clues: ["state", "root", "badminton", "health", "situation"],
+  },
+  2252: {
+    word: "badminton",
+    clues: ["sport", "condition", "equipment", "shuttlecock", "game"],
+  },
+  2253: {
+    word: "equipment",
+    clues: ["tools", "badminton", "clever", "gear", "use"],
+  },
+  2254: {
+    word: "clever",
+    clues: ["smart", "equipment", "intelligent", "gifted", "bright"],
+  },
+  2255: {
+    word: "intelligent",
+    clues: ["clever", "gifted", "brilliant", "smart", "wise"],
+  },
+  2256: {
+    word: "gifted",
+    clues: ["talented", "intelligent", "brilliant", "clever", "special"],
+  },
+  2257: {
+    word: "brilliant",
+    clues: ["bright", "gifted", "intelligent", "clever", "genius"],
+  },
+  2258: {
+    word: "steal",
+    clues: ["rob", "luggage", "fiction", "crime", "take"],
+  },
+  2259: {
+    word: "luggage",
+    clues: ["bag", "travel", "suitcase", "carry", "trip"],
+  },
+  2260: {
+    word: "fiction",
+    clues: ["story", "novel", "imagination", "fantasy", "book"],
+  },
+  2261: {
+    word: "brick",
+    clues: ["block", "building", "material", "wall", "construction"],
+  },
+  2262: {
+    word: "divide",
+    clues: ["split", "separate", "partition", "share", "cut"],
+  },
+  2263: {
+    word: "bush",
+    clues: ["shrub", "plant", "green", "garden", "nature"],
+  },
+  2264: {
+    word: "lost",
+    clues: ["missing", "gone", "search", "confused", "misplaced"],
+  },
+  2265: {
+    word: "tomato",
+    clues: ["fruit", "vegetable", "red", "salad", "juice"],
+  },
+  2266: {
+    word: "sauce",
+    clues: ["condiment", "flavor", "liquid", "dip", "seasoning"],
+  },
+  2267: {
+    word: "fries",
+    clues: ["potato", "crispy", "food", "snack", "side"],
+  },
+  2268: {
+    word: "condiment",
+    clues: ["sauce", "seasoning", "spice", "flavor", "addition"],
+  },
+  2269: {
+    word: "plan",
+    clues: ["strategy", "idea", "design", "scheme", "goal"],
+  },
+  2270: {
+    word: "scheme",
+    clues: ["plan", "plot", "design", "strategy", "arrangement"],
+  },
+  2271: {
+    word: "tea",
+    clues: ["drink", "beverage", "hot", "leaf", "cup"],
+  },
+  2272: {
+    word: "leaf",
+    clues: ["plant", "green", "tree", "nature", "tea"],
+  },
+  2273: {
+    word: "syrup",
+    clues: ["sweet", "liquid", "maple", "dessert", "thick"],
+  },
+  2274: {
+    word: "boy",
+    clues: ["child", "male", "young", "him", "kid"],
+  },
+  2275: {
+    word: "gender",
+    clues: ["identity", "male", "female", "boy", "classification"],
+  },
+  2276: {
+    word: "him",
+    clues: ["male", "boy", "pronoun", "masculine", "he"],
+  },
+  2277: {
+    word: "masculine",
+    clues: ["male", "man", "him", "gender", "strong"],
+  },
+  2278: {
+    word: "safari",
+    clues: ["adventure", "wildlife", "travel", "nature", "explore"],
+  },
+  2279: {
+    word: "singing",
+    clues: ["music", "voice", "song", "melody", "performance"],
+  },
+  2280: {
+    word: "drama",
+    clues: ["acting", "theater", "story", "emotion", "play"],
+  },
+  2281: {
+    word: "vertical",
+    clues: ["upright", "straight", "line", "height", "direction"],
+  },
+  2282: {
+    word: "evening",
+    clues: ["night", "dark", "time", "sunset", "relax"],
+  },
+  2283: {
+    word: "leisure",
+    clues: ["relaxation", "free", "time", "hobby", "rest"],
+  },
+  2284: {
+    word: "camera",
+    clues: ["photo", "lens", "picture", "capture", "device"],
+  },
+  2285: {
+    word: "cinema",
+    clues: ["movie", "film", "theater", "screen", "entertainment"],
+  },
+  2286: {
+    word: "focus",
+    clues: ["attention", "concentration", "center", "sharp", "goal"],
+  },
+  2287: {
+    word: "hub",
+    clues: ["center", "main", "place", "core", "network"],
+  },
+  2288: {
+    word: "core",
+    clues: ["center", "heart", "main", "hub", "essential"],
+  },
+  2289: {
+    word: "waiter",
+    clues: ["server", "restaurant", "food", "service", "table"],
+  },
+  2290: {
+    word: "lay",
+    clues: ["place", "set", "down", "position", "rest"],
+  },
+  2291: {
+    word: "egg",
+    clues: ["food", "round", "breakfast", "protein", "shell"],
+  },
+  2292: {
+    word: "pendulum",
+    clues: ["swing", "motion", "clock", "time", "arc"],
+  },
+  2293: {
+    word: "act",
+    clues: ["perform", "scene", "action", "role", "play"],
+  },
+  2294: {
+    word: "perform",
+    clues: ["act", "stage", "show", "execute", "presentation"],
+  },
+  2295: {
+    word: "crisp",
+    clues: ["fresh", "sharp", "clear", "fries", "texture"],
+  },
+  2296: {
+    word: "ore",
+    clues: ["mineral", "rock", "metal", "mine", "resource"],
+  },
+  2297: {
+    word: "tunnel",
+    clues: ["underground", "passage", "dark", "path", "hole"],
+  },
+  2298: {
+    word: "belong",
+    clues: ["fit", "place", "ownership", "relation", "home"],
+  },
+  2299: {
+    word: "explosive",
+    clues: ["blast", "danger", "bomb", "fire", "burst"],
+  },
+  2300: {
+    word: "key",
+    clues: ["unlock", "door", "important", "secure", "access"],
+  },
+  2301: {
+    word: "secure",
+    clues: ["safe", "lock", "protect", "guard", "stable"],
+  },
+  2302: {
+    word: "contest",
+    clues: ["competition", "challenge", "event", "win", "game"],
+  },
+  2303: {
+    word: "fossil",
+    clues: ["ancient", "rock", "remains", "prehistoric", "bones"],
+  },
+  2304: {
+    word: "reptile",
+    clues: ["snake", "lizard", "cold-blooded", "animal", "scales"],
+  },
+  2305: {
+    word: "sheets",
+    clues: ["bed", "fabric", "cover", "layer", "paper"],
+  },
+  2306: {
+    word: "broken",
+    clues: ["damaged", "shattered", "cracked", "split", "ruined"],
+  },
+  2307: {
+    word: "throw",
+    clues: ["toss", "pitch", "hurl", "launch", "cast"],
+  },
+  2308: {
+    word: "mold",
+    clues: ["shape", "form", "cast", "fungus", "pattern"],
+  },
+  2309: {
+    word: "examine",
+    clues: ["inspect", "study", "analyze", "check", "observe"],
+  },
+  2310: {
+    word: "chess",
+    clues: ["game", "board", "strategy", "pieces", "king"],
+  },
+  2311: {
+    word: "movies",
+    clues: ["cinema", "film", "entertainment", "screen", "theater"],
+  },
+  2312: {
+    word: "california",
+    clues: ["state", "USA", "beach", "Hollywood", "west"],
+  },
+  2313: {
+    word: "entertainment",
+    clues: ["fun", "movies", "music", "show", "performance"],
+  },
+  2314: {
+    word: "slope",
+    clues: ["hill", "incline", "angle", "mountain", "gradient"],
+  },
+  2315: {
+    word: "sales",
+    clues: ["business", "money", "trade", "profit", "market"],
+  },
+  2316: {
+    word: "chef",
+    clues: ["cook", "kitchen", "food", "prepare", "restaurant"],
+  },
+  2317: {
+    word: "prepare",
+    clues: ["ready", "make", "arrange", "organize", "cook"],
+  },
+  2318: {
+    word: "live",
+    clues: ["exist", "life", "present", "human", "alive"],
+  },
+  2319: {
+    word: "human",
+    clues: ["person", "life", "being", "exist", "individual"],
+  },
+  2320: {
+    word: "exist",
+    clues: ["live", "being", "real", "presence", "survive"],
+  },
+  2321: {
+    word: "birth",
+    clues: ["baby", "life", "beginning", "start", "new"],
+  },
+  2322: {
+    word: "being",
+    clues: ["existence", "life", "human", "creature", "entity"],
+  },
+  2323: {
+    word: "bend",
+    clues: ["curve", "flex", "twist", "angle", "arc"],
+  },
+  2324: {
+    word: "hang",
+    clues: ["suspend", "dangle", "drop", "attach", "hold"],
+  },
+  2325: {
+    word: "electrical",
+    clues: ["power", "energy", "current", "circuit", "wire"],
+  },
+  2326: {
+    word: "officer",
+    clues: ["police", "law", "arrest", "authority", "uniform"],
+  },
+  2327: {
+    word: "arrest",
+    clues: ["capture", "police", "crime", "stop", "detain"],
+  },
+  2328: {
+    word: "bowling",
+    clues: ["sport", "pins", "ball", "lane", "game"],
+  },
+  2329: {
+    word: "meow",
+    clues: ["cat", "sound", "feline", "animal", "noise"],
+  },
+  2330: {
+    word: "feline",
+    clues: ["cat", "animal", "whiskers", "meow", "pet"],
+  },
+  2331: {
+    word: "whiskers",
+    clues: ["cat", "feline", "hair", "face", "animal"],
+  },
+  2332: {
+    word: "nocturnal",
+    clues: ["night", "dark", "active", "animal", "sleep"],
+  },
+  2333: {
+    word: "slick",
+    clues: ["smooth", "slippery", "oil", "shiny", "petroleum"],
+  },
+  2334: {
+    word: "petroleum",
+    clues: ["oil", "fuel", "energy", "slick", "resource"],
+  },
+  2335: {
+    word: "fur",
+    clues: ["hair", "animal", "coat", "soft", "warm"],
+  },
+  2336: {
+    word: "growl",
+    clues: ["sound", "animal", "angry", "noise", "warning"],
+  },
+  2337: {
+    word: "hibernation",
+    clues: ["sleep", "winter", "animal", "rest", "inactive"],
+  },
+  2338: {
+    word: "soap",
+    clues: ["clean", "wash", "bubble", "bar", "hygiene"],
+  },
+  2339: {
+    word: "counter",
+    clues: ["surface", "kitchen", "top", "table", "desk"],
+  },
+  2340: {
+    word: "freeze",
+    clues: ["cold", "ice", "solid", "stop", "temperature"],
+  },
+  2341: {
+    word: "low",
+    clues: ["short", "small", "down", "minimum", "bottom"],
+  },
+  2342: {
+    word: "finance",
+    clues: ["money", "business", "economy", "bank", "budget"],
+  },
+  2343: {
+    word: "relationship",
+    clues: ["connection", "bond", "love", "friendship", "link"],
+  },
+  2344: {
+    word: "snail",
+    clues: ["slow", "shell", "animal", "wet", "slime"],
+  },
+  2345: {
+    word: "wet",
+    clues: ["water", "moist", "rain", "damp", "liquid"],
+  },
+  2346: {
+    word: "pest",
+    clues: ["insect", "annoying", "bug", "problem", "infestation"],
+  },
+  2347: {
+    word: "smooth",
+    clues: ["slick", "soft", "even", "flat", "polished"],
+  },
+  2348: {
+    word: "toy",
+    clues: ["play", "child", "fun", "game", "object"],
+  },
+  2349: {
+    word: "sculpture",
+    clues: ["art", "statue", "solid", "shape", "design"],
+  },
+  2350: {
+    word: "solid",
+    clues: ["hard", "firm", "shape", "material", "strong"],
+  },
+  2351: {
+    word: "cone",
+    clues: ["shape", "ice cream", "point", "circle", "geometry"],
+  },
+  2352: {
+    word: "spirit",
+    clues: ["soul", "ghost", "energy", "unseen", "divine"],
+  },
+  2353: {
+    word: "scary",
+    clues: ["frightening", "spooky", "haunt", "fear", "terrifying"],
+  },
+  2354: {
+    word: "haunt",
+    clues: ["ghost", "spirit", "scary", "unseen", "visit"],
+  },
+  2355: {
+    word: "unseen",
+    clues: ["invisible", "hidden", "spirit", "ghost", "unknown"],
+  },
+  2356: {
+    word: "heaven",
+    clues: ["divine", "sky", "paradise", "god", "highest"],
+  },
+  2357: {
+    word: "divine",
+    clues: ["god", "holy", "spirit", "heaven", "sacred"],
+  },
+  2358: {
+    word: "messenger",
+    clues: ["message", "deliver", "angel", "communication", "send"],
+  },
+  2359: {
+    word: "return",
+    clues: ["come back", "rear", "give back", "repeat", "restore"],
+  },
+  2360: {
+    word: "rear",
+    clues: ["back", "behind", "return", "end", "reverse"],
+  },
+  2361: {
+    word: "god",
+    clues: ["divine", "creator", "heaven", "spirit", "highest"],
+  },
+  2362: {
+    word: "highest",
+    clues: ["top", "peak", "god", "heaven", "maximum"],
+  },
+  2363: {
+    word: "soil",
+    clues: ["earth", "dirt", "ground", "land", "plant"],
+  },
+  2364: {
+    word: "brass",
+    clues: ["metal", "golden", "instrument", "alloy", "shine"],
+  },
+  2365: {
+    word: "lips",
+    clues: ["mouth", "oral", "kiss", "face", "speech"],
+  },
+  2366: {
+    word: "oral",
+    clues: ["mouth", "spoken", "lips", "speech", "verbal"],
+  },
+  2367: {
+    word: "label",
+    clues: ["tag", "attach", "name", "mark", "identify"],
+  },
+  2368: {
+    word: "attach",
+    clues: ["connect", "join", "label", "stick", "fasten"],
+  },
+  2369: {
+    word: "shell",
+    clues: ["cover", "protect", "dirt", "outer", "hard"],
+  },
+  2370: {
+    word: "dirt",
+    clues: ["soil", "ground", "mud", "crawl", "earth"],
+  },
+  2371: {
+    word: "crawl",
+    clues: ["move", "slow", "dirt", "ground", "creep"],
+  },
+  2372: {
+    word: "legal",
+    clues: ["law", "defend", "attorney", "court", "justice"],
+  },
+  2373: {
+    word: "defend",
+    clues: ["protect", "legal", "attorney", "guard", "shield"],
+  },
+  2374: {
+    word: "attorney",
+    clues: ["lawyer", "legal", "defend", "court", "justice"],
+  },
+  2375: {
+    word: "eight",
+    clues: ["number", "count", "stealth", "octagon", "quantity"],
+  },
+  2376: {
+    word: "stealth",
+    clues: ["hidden", "quiet", "sneaky", "eight", "secret"],
+  },
+  2377: {
+    word: "japan",
+    clues: ["country", "asia", "warrior", "culture", "island"],
+  },
+  2378: {
+    word: "warrior",
+    clues: ["fighter", "battle", "japan", "hero", "combat"],
+  },
+  2379: {
+    word: "lace",
+    clues: ["string", "tie", "fabric", "shoe", "delicate"],
+  },
+  2380: {
+    word: "hop",
+    clues: ["jump", "bounce", "ears", "bunny", "move"],
+  },
+  2381: {
+    word: "ears",
+    clues: ["hear", "sound", "bunny", "head", "listen"],
+  },
+  2382: {
+    word: "bunny",
+    clues: ["rabbit", "ears", "hop", "animal", "cute"],
+  },
+  2383: {
+    word: "employees",
+    clues: ["workers", "personnel", "job", "staff", "office"],
+  },
+  2384: {
+    word: "personnel",
+    clues: ["employees", "staff", "team", "workforce", "office"],
+  },
+  2385: {
+    word: "mixture",
+    clues: ["blend", "combine", "chemical", "mix", "compound"],
+  },
+  2386: {
+    word: "chemical",
+    clues: ["substance", "mixture", "reaction", "science", "compound"],
+  },
+  2387: {
+    word: "enclosure",
+    clues: ["fence", "area", "contain", "boundary", "space"],
+  },
+  2388: {
+    word: "flat",
+    clues: ["level", "smooth", "plane", "fry", "surface"],
+  },
+  2389: {
+    word: "fry",
+    clues: ["cook", "pan", "flat", "heat", "oil"],
+  },
+  2390: {
+    word: "utensil",
+    clues: ["tool", "kitchen", "cook", "fry", "equipment"],
+  },
+  2391: {
+    word: "arena",
+    clues: ["stadium", "game", "sports", "place", "arrange"],
+  },
+  2392: {
+    word: "arrange",
+    clues: ["organize", "order", "arena", "set", "plan"],
+  },
+  2393: {
+    word: "fragile",
+    clues: ["delicate", "breakable", "weak", "save", "soft"],
+  },
+  2394: {
+    word: "save",
+    clues: ["rescue", "protect", "fragile", "keep", "preserve"],
+  },
+  2395: {
+    word: "cape",
+    clues: ["cloak", "hero", "wear", "super", "garment"],
+  },
+  2396: {
+    word: "hero",
+    clues: ["brave", "cape", "save", "warrior", "super"],
+  },
+  2397: {
+    word: "bulk",
+    clues: ["amount", "large", "mass", "size", "quantity"],
+  },
+  2398: {
+    word: "amount",
+    clues: ["quantity", "bulk", "total", "measure", "sum"],
+  },
+  2399: {
+    word: "photo",
+    clues: ["picture", "image", "camera", "snapshot", "memory"],
+  },
+  2400: {
+    word: "basketball",
+    clues: ["sport", "game", "hoop", "ball", "court"],
+  },
+  2401: {
+    word: "inject",
+    clues: ["needle", "medicine", "fluid", "insert", "shot"],
+  },
+  2402: {
+    word: "president",
+    clues: ["leader", "country", "government", "office", "head"],
+  },
+  2403: {
+    word: "roar",
+    clues: ["sound", "lion", "mane", "loud", "animal"],
+  },
+  2404: {
+    word: "mane",
+    clues: ["hair", "lion", "roar", "animal", "neck"],
+  },
+  2405: {
+    word: "hay",
+    clues: ["grass", "farm", "animal", "feed", "dry"],
+  },
+  2406: {
+    word: "outer",
+    clues: ["external", "outside", "shell", "surface", "race"],
+  },
+  2407: {
+    word: "race",
+    clues: ["competition", "speed", "circuit", "run", "contest"],
+  },
+  2408: {
+    word: "circuit",
+    clues: ["path", "race", "electric", "loop", "track"],
+  },
+  2409: {
+    word: "upheaval",
+    clues: ["chaos", "change", "disturbance", "monarch", "turmoil"],
+  },
+  2410: {
+    word: "monarch",
+    clues: ["king", "queen", "leader", "upheaval", "royalty"],
+  },
+  2411: {
+    word: "source",
+    clues: ["origin", "beginning", "balloon", "start", "cause"],
+  },
+  2412: {
+    word: "balloon",
+    clues: ["air", "vapor", "inflate", "float", "party"],
+  },
+  2413: {
+    word: "vapor",
+    clues: ["gas", "steam", "balloon", "water", "cloud"],
+  },
+  2414: {
+    word: "vibration",
+    clues: ["shake", "movement", "sound", "wave", "motion"],
+  },
+  2415: {
+    word: "invoice",
+    clues: ["bill", "payment", "money", "document", "charge"],
+  },
+  2416: {
+    word: "beak",
+    clues: ["bird", "mouth", "faucet", "sharp", "animal"],
+  },
+  2417: {
+    word: "faucet",
+    clues: ["water", "tap", "sink", "flow", "beak"],
+  },
+  2418: {
+    word: "laundry",
+    clues: ["clothes", "wash", "clean", "soap", "basket"],
+  },
+  2419: {
+    word: "statue",
+    clues: ["sculpture", "monument", "stone", "art", "figure"],
+  },
+  2420: {
+    word: "diagram",
+    clues: ["chart", "drawing", "plan", "visual", "representation"],
+  },
+  2421: {
+    word: "rainforest",
+    clues: ["jungle", "trees", "tropical", "wildlife", "nature"],
+  },
+  2422: {
+    word: "jungle",
+    clues: ["forest", "rainforest", "wild", "nature", "dense"],
+  },
+  2423: {
+    word: "equal",
+    clues: ["same", "fair", "just", "balance", "equivalent"],
+  },
+  2424: {
+    word: "just",
+    clues: ["fair", "equal", "right", "justice", "honest"],
+  },
+  2425: {
+    word: "carnival",
+    clues: ["festival", "fair", "celebration", "rides", "fun"],
+  },
+  2426: {
+    word: "blonde",
+    clues: ["hair", "light", "yellow", "color", "fair"],
+  },
+  2427: {
+    word: "thanksgiving",
+    clues: ["holiday", "celebration", "meal", "gratitude", "family"],
+  },
+  2428: {
+    word: "meat",
+    clues: ["food", "protein", "chicken", "beef", "bite"],
+  },
+  2429: {
+    word: "gobble",
+    clues: ["eat", "turkey", "thanksgiving", "bite", "sound"],
+  },
+  2430: {
+    word: "bite",
+    clues: ["chew", "eat", "gobble", "teeth", "mouth"],
+  },
+  2431: {
+    word: "enamel",
+    clues: ["teeth", "coat", "hard", "surface", "shine"],
+  },
+  2432: {
+    word: "fingers",
+    clues: ["hand", "hold", "clap", "touch", "digits"],
+  },
+  2433: {
+    word: "hold",
+    clues: ["grasp", "fingers", "carry", "keep", "secure"],
+  },
+  2434: {
+    word: "clap",
+    clues: ["applause", "hands", "fingers", "sound", "celebrate"],
+  },
+  2435: {
+    word: "cane",
+    clues: ["stick", "support", "walk", "wood", "elder"],
+  },
+  2436: {
+    word: "underground",
+    clues: ["subway", "beneath", "hidden", "earth", "buried"],
+  },
+  2437: {
+    word: "chicken",
+    clues: ["bird", "meat", "peep", "farm", "egg"],
+  },
+  2438: {
+    word: "peep",
+    clues: ["sound", "chicken", "look", "small", "glance"],
+  },
+  2439: {
+    word: "press",
+    clues: ["push", "button", "force", "news", "media"],
+  },
+  2440: {
+    word: "shirt",
+    clues: ["clothing", "wear", "top", "fabric", "button"],
+  },
+  2441: {
+    word: "mountains",
+    clues: ["peaks", "hills", "range", "nature", "elevation"],
+  },
+  2442: {
+    word: "nepal",
+    clues: ["country", "Himalayas", "mountains", "Asia", "Everest"],
+  },
+  2443: {
+    word: "range",
+    clues: ["mountains", "distance", "scope", "extent", "span"],
   },
 };
