@@ -12,6 +12,7 @@ const clueWordDisplay = document.getElementById("clue-word-display");
 const guessInput = document.getElementById("guess-input");
 const codeError = document.getElementById("code-error");
 const gameMessage = document.getElementById("game-message");
+const loader = document.querySelector('.loader');
 
 let mysteryWord = "";
 let clueWords = [];
@@ -94,7 +95,17 @@ async function startGame() {
     currentClueIndex++;
   }
   console.log(`bout to create calculator`);
-  calculator = await Calculator.create(mysteryWord);
+  // Show loading indicator
+  loader.style.display = 'block';
+  guessInput.style.display = "none"; // Hide guess input initially
+
+  try {
+    calculator = await Calculator.create(mysteryWord);
+  } finally {
+    // Hide loading indicator
+    loader.style.display = 'none';
+    guessInput.style.display = "block"; // Show guess input
+  }
   console.log(`calculator created: ${calculator}`);
 }
 
@@ -126,7 +137,6 @@ joinExistingGameButton.addEventListener("click", async () => {
     joinGameCodeInput.classList.add("border-red-500");
   }
 });
-
 
 // Event listener for the guess input
 guessInput.addEventListener("keydown", async (event) => {
@@ -165,10 +175,11 @@ async function submitGuess() {
     } else {
       // flashRed();
       shakeWrongGuess();
-      if (currentClueIndex < clueWords.length) { // More attempts remaining
+      if (currentClueIndex < clueWords.length) {
+        // More attempts remaining
         flashRedThenDisplayClues(currentClueIndex + 1);
-        
-      } else { // Game is over
+      } else {
+        // Game is over
         let score = await calculator.getScore();
         guessInput.style.display = "none";
         flashRedThenDisplayClues(clueWords.length);
