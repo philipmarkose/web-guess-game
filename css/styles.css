@@ -136,7 +136,7 @@ p.text-gray-600 {
   text-align: center;
   margin: 0;
   flex-grow: 0; /* Prevent the input from growing too wide */
-  width: 80%; /* Set the width of the input field */
+  width: 60%; /* Set the width of the input field */
   border: none; /* Remove the box border */
   border-bottom: 2px solid #e2e8f0; /* Add an underline */
   border-radius: 0; /* Remove rounded corners */
