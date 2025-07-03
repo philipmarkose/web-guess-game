@@ -138,7 +138,7 @@ p.text-gray-600 {
   flex-grow: 0; /* Prevent the input from growing too wide */
   width: 60%; /* Set the width of the input field */
   border: none; /* Remove the box border */
-  border-bottom: 2px solid #e2e8f0; /* Add an underline */
+  border-bottom: 2px solid silver; /* Make the underline thicker and black */
   border-radius: 0; /* Remove rounded corners */
   padding: 0.5rem 1rem; /* Adjust padding for better alignment */
   font-size: 1rem; /* Adjust font size */
@@ -150,7 +150,7 @@ p.text-gray-600 {
 
 #guess-input:focus {
   outline: none; /* Remove focus outline */
-  border-bottom: 2px solid #3182ce; /* Change underline color on focus */
+  border-bottom: 2px solid silver; /* Keep the underline bold and black on focus */
 }
 .unused-clue {
   color: gray;
