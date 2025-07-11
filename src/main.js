@@ -148,10 +148,10 @@ guessInput.addEventListener("keydown", async (event) => {
 
 function flashRedThenDisplayClues(length) {
   const textbox = guessInput; // Target the guess input textbox
-  textbox.style.backgroundColor = "#ffcccc"; // Set background to a lighter red
+  textbox.style.color = "#ffcccc"; // Set background to a lighter red
   setTimeout(() => {
     guessInput.value = "";
-    textbox.style.backgroundColor = ""; // Reset background to normal
+    textbox.style.color = ""; // Reset background to normal
     displayCluesandGuesses(length);
     currentClueIndex++;
   }, 500);
