@@ -1,5 +1,6 @@
 import { wordData } from "./constants/words.js";
 import { Calculator } from "./helpers/calculator.js";
+import { isGuessCorrect, getAcceptedGuesses } from "./utils/isGuessCorrect.js";
 
 const mainPage = document.getElementById("main-page");
 const gamePage = document.getElementById("game-page");
@@ -21,6 +22,7 @@ let gameCode = "";
 let isNewGame = false;
 let previousGuesses = [];
 let calculator;
+let acceptedGuesses;
 
 // Function to generate a mystery word and related clues
 async function generateMysteryWordAndClues(code) {
@@ -31,6 +33,7 @@ async function generateMysteryWordAndClues(code) {
     mysteryWord = "";
     clueWords = [];
   }
+  acceptedGuesses = new Set(await getAcceptedGuesses(mysteryWord));
   currentClueIndex = 0;
   previousGuesses = [];
 }
@@ -167,7 +170,7 @@ async function submitGuess() {
   } else {
     await calculator.updateScore(guess);
     previousGuesses.push(guess);
-    if (guess === mysteryWord) {
+    if (isGuessCorrect(mysteryWord, guess)) {
       let score = await calculator.getScore();
       guessInput.style.display = "none";
       displayCluesandGuesses(clueWords.length);
